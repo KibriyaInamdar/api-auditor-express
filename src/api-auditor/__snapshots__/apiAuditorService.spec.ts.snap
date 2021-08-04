@@ -1,0 +1,4559 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Auditor service tests Read edmx file to CSN: {
+            definitions: {
+              c4codata: { kind: 'service' },
+              'c4codata.ContactCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.ContactPersonalAddressCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.ContactAttachmentFolderCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.ContactTextCollectionCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.ContactInternationalVersionCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.ContactIsContactPersonForCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerTaxNumberCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountTaxNumberCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerSalesDataCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountSalesDataCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountVisitingHoursOperatingPeriodCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountHasContactPersonCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerTeamCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountAddressCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountTeamCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountTextCollectionCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountAttachmentFolderCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerTextCollectionCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerAttachmentFolderCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerAddressCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountVisitingHoursCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountVisitingHoursRecurrenceCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerSkillsCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountSkillsCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountVisitingInformationDetailsCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerVisitingInformationDetailsCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountInternationalVersionCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.CorporateAccountIdentificationCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerIdentificationCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.BusinessUserCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.BusinessUserBusinessRoleAssignmentCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.BusinessUserSubscriptionAssignmentCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.EmployeeBasicDataCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerVisitingInformationDetailsVisitTypeCodeCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              },
+              'c4codata.IndividualCustomerTaxNumberTaxTypeCodeCollection': {
+                kind: 'entity',
+                '@cds.persistence.skip': true,
+                elements: [Object]
+              }
+            }
+          } 1`] = `
+Object {
+  "definitions": Object {
+    "c4codata": Object {
+      "kind": "service",
+    },
+    "c4codata.BusinessUserBusinessRoleAssignmentCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "BusinessRoleID": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmployeeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "UserID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.BusinessUserCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "BusinessPartnerFormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "BusinessPartnerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BusinessUserBusinessRoleAssignment": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.BusinessUserBusinessRoleAssignmentCollection",
+          "type": "cds.Association",
+        },
+        "BusinessUserSubscriptionAssignment": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.BusinessUserSubscriptionAssignmentCollection",
+          "type": "cds.Association",
+        },
+        "CompanyName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "DateFormatCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DateFormatCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DecimalFormatCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DecimalFormatCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DepartmentName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EmailURI": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmployeeBasicData": Object {
+          "target": "c4codata.EmployeeBasicDataCollection",
+          "type": "cds.Association",
+        },
+        "EmployeeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "EmployeeUUID": Object {
+          "type": "cds.UUID",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "IdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "LogonLanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LogonLanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ManagerName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "PasswordInactiveIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "PasswordLockedIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "PasswordPolicyCode": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "PasswordPolicyCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "TechnicalUserID": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "TimeFormatCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "TimeFormatCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UserAccountTypeCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "UserAccountTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UserChangedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "UserChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "UserCountedIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "UserCreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "UserID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "UserLockedIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "UserValidityEndDate": Object {
+          "type": "cds.Date",
+        },
+        "UserValidityStartDate": Object {
+          "type": "cds.Date",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.BusinessUserSubscriptionAssignmentCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EmployeeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "UserID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "UserSubscriptionTypeCode": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "UserSubscriptionTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UserTypeCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "UserTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.ContactAttachmentFolderCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "Binary": Object {
+          "type": "cds.LargeBinary",
+        },
+        "CategoryCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "CategoryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ContactInternalID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CreatedBy": Object {
+          "length": 80,
+          "type": "cds.String",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "DocumentLink": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "LastUpdatedBy": Object {
+          "length": 80,
+          "type": "cds.String",
+        },
+        "LastUpdatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "LinkWebURI": Object {
+          "type": "cds.LargeString",
+        },
+        "MimeType": Object {
+          "type": "cds.LargeString",
+        },
+        "Name": Object {
+          "type": "cds.LargeString",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OutputRelevanceIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "SizeInkB": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "Title": Object {
+          "type": "cds.LargeString",
+        },
+        "TypeCode": Object {
+          "length": 5,
+          "type": "cds.String",
+        },
+        "TypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UUID": Object {
+          "type": "cds.UUID",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.ContactCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AcademicTitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "AcademicTitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "AccountFormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AccountUUID": Object {
+          "type": "cds.UUID",
+        },
+        "AdditionalAcademicTitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "AdditionalAcademicTitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "AdditionalFamilyName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "BestReachedByCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BestReachedByCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BirthDate": Object {
+          "type": "cds.Date",
+        },
+        "BirthName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BusinessAddressCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "BusinessAddressCountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BusinessAddressCountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BusinessAddressHouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BusinessAddressStateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "BusinessAddressStateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BusinessAddressStateCodeTextUpdatable": Object {
+          "type": "cds.LargeString",
+        },
+        "BusinessAddressStreet": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "BusinessAddressStreetPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ChangedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "ChangedByIdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "ChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "ContactAttachmentFolder": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.ContactAttachmentFolderCollection",
+          "type": "cds.Association",
+        },
+        "ContactID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ContactInternationalVersion": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.ContactInternationalVersionCollection",
+          "type": "cds.Association",
+        },
+        "ContactIsContactPersonFor": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.ContactIsContactPersonForCollection",
+          "type": "cds.Association",
+        },
+        "ContactOwnerEmployeeBasicData": Object {
+          "target": "c4codata.EmployeeBasicDataCollection",
+          "type": "cds.Association",
+        },
+        "ContactOwnerID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "ContactOwnerUUID": Object {
+          "type": "cds.UUID",
+        },
+        "ContactPermissionCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "ContactPermissionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ContactPersonalAddress": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.ContactPersonalAddressCollection",
+          "type": "cds.Association",
+        },
+        "ContactTextCollection": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.ContactTextCollectionCollection",
+          "type": "cds.Association",
+        },
+        "ContactUUID": Object {
+          "type": "cds.UUID",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "CreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CreatedByIdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "CreationOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "Department": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "DepartmentCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "DepartmentCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmailInvalidIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "ExternalID": Object {
+          "length": 100,
+          "type": "cds.String",
+        },
+        "ExternalSystem": Object {
+          "length": 32,
+          "type": "cds.String",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "FirstName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FunctionCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "FunctionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "GenderCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "GenderCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Initials": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "JobTitle": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LastName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "MaritalStatusCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "MaritalStatusCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "MiddleName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Name": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "NamePrefixCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "NamePrefixCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "NickName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedMobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedPhone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "PerceptionOfCompanyCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "PerceptionOfCompanyCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ProfessionCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "ProfessionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "StatusCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "StatusCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "TitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "TitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "VIPContactCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "VIPContactCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.ContactInternationalVersionCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AcademicTitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "AcademicTitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "AdditionalAcademicTitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "AdditionalAcademicTitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "AdditionalFamilyName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Contact": Object {
+          "target": "c4codata.ContactCollection",
+          "type": "cds.Association",
+        },
+        "ContactID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Department": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "FirstName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Initials": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "InternationalVersionCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "InternationalVersionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "JobTitle": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "LastName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "MiddleName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Name": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "NickName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "TitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.ContactIsContactPersonForCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountFormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BestReachedByCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BestReachedByCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ContactID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "Department": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "DepartmentCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "DepartmentCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmailInvalidIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FunctionCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "FunctionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "JobTitle": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OrganisationAddressUUID": Object {
+          "type": "cds.UUID",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ReverseMainIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "VIPReasonCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "VIPReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.ContactPersonalAddressCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AddressLine1": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine4": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine5": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CareOfName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "City": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Contact": Object {
+          "target": "c4codata.ContactCollection",
+          "type": "cds.Association",
+        },
+        "ContactID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "EMail": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "HouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "MainPersonalAddress": Object {
+          "type": "cds.Boolean",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedMobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedPhone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "POBox": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "POBoxPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Street": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "StreetPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "WebSite": Object {
+          "length": 1280,
+          "type": "cds.String",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.ContactTextCollectionCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AuthorName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Contact": Object {
+          "target": "c4codata.ContactCollection",
+          "type": "cds.Association",
+        },
+        "ContactID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CreatedByIdentityID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CreatedByTechnicalUserIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LastUpdatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "LastUpdatedByIdentityID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "LastUpdatedByTechnicalUserIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Text": Object {
+          "type": "cds.LargeString",
+        },
+        "UpdatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountAddressCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AdditionalHouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AddressLine1": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine4": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine5": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "BestReachedByCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BestReachedByCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BillTo": Object {
+          "type": "cds.Boolean",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CareOfName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "City": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CompanyPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "County": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "DefaultBillTo": Object {
+          "type": "cds.Boolean",
+        },
+        "DefaultShipTo": Object {
+          "type": "cds.Boolean",
+        },
+        "DifferentCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "District": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FormattedAddressFirstLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedAddressFourthLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedAddressSecondLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedAddressThirdLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressFirstLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressSecondLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressThirdLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "HouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Latitude": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "Longitude": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "MainIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedMobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedPhone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "POBox": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxDeviatingStateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingStateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "POBoxPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ShipTo": Object {
+          "type": "cds.Boolean",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Street": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "StreetPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UUID": Object {
+          "type": "cds.UUID",
+        },
+        "WebSite": Object {
+          "length": 1280,
+          "type": "cds.String",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountAttachmentFolderCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Binary": Object {
+          "type": "cds.LargeBinary",
+        },
+        "CategoryCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "CategoryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CreatedBy": Object {
+          "length": 80,
+          "type": "cds.String",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "DocumentLink": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "LastUpdatedBy": Object {
+          "length": 80,
+          "type": "cds.String",
+        },
+        "LastUpdatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "LinkWebURI": Object {
+          "type": "cds.LargeString",
+        },
+        "MimeType": Object {
+          "type": "cds.LargeString",
+        },
+        "Name": Object {
+          "type": "cds.LargeString",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OutputRelevanceIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "SizeInkB": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "Title": Object {
+          "type": "cds.LargeString",
+        },
+        "TypeCode": Object {
+          "length": 5,
+          "type": "cds.String",
+        },
+        "TypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UUID": Object {
+          "type": "cds.UUID",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AdditionalHouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AdditionalName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AdditionalName2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AdditionalName3": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine1": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine4": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine5": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "BestReachedByCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BestReachedByCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BillingBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "BillingBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BusinessPartnerFormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CareOfName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ChangedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "ChangedByIdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "ChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "City": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CompanyPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ContactPermissionCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "ContactPermissionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CorporateAccountAddress": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountAddressCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountAttachmentFolder": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountAttachmentFolderCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountHasContactPerson": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountHasContactPersonCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountIdentification": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountIdentificationCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountInternationalVersion": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountInternationalVersionCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountSalesData": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountSalesDataCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountSkills": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountSkillsCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountTaxNumber": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountTaxNumberCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountTeam": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountTeamCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountTextCollection": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountTextCollectionCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountVisitingHours": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountVisitingHoursCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountVisitingInformationDetails": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountVisitingInformationDetailsCollection",
+          "type": "cds.Association",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "County": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CreatedByIdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "CreationOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "CurrentDefaultAddressUUID": Object {
+          "type": "cds.UUID",
+        },
+        "CustomerABCClassificationCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "CustomerABCClassificationCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DUNSID": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "DeliveryBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DeliveryBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DifferentCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "District": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "ExternalID": Object {
+          "length": 100,
+          "type": "cds.String",
+        },
+        "ExternalSystem": Object {
+          "length": 32,
+          "type": "cds.String",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "HouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "IndustrialSectorCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "IndustrialSectorCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LastVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "LatestRecommendedVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "LegalCompetenceIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "LegalFormCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LegalFormCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LifeCycleStatusCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LifeCycleStatusCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Name": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NextVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "NielsenRegionCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "NielsenRegionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "NormalisedMobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedPhone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "OwnerEmployeeBasicData": Object {
+          "target": "c4codata.EmployeeBasicDataCollection",
+          "type": "cds.Association",
+        },
+        "OwnerID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "OwnerUUID": Object {
+          "type": "cds.UUID",
+        },
+        "POBox": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxDeviatingRegionCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingRegionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "POBoxPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ParentAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "ParentAccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "RecommendedVisitingFrequency": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "RoleCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "RoleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "SalesSupportBlockingIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Street": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "StreetPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UUID": Object {
+          "type": "cds.UUID",
+        },
+        "VisitDuration": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "WebSite": Object {
+          "length": 1280,
+          "type": "cds.String",
+        },
+        "zpdi_cust_amtcontent_SDK": Object {
+          "precision": 28,
+          "scale": 6,
+          "type": "cds.Decimal",
+        },
+        "zpdi_cust_amtcurrencyCode_SDK": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "zpdi_cust_amtcurrencyCode_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_cust_atcodecontent_SDK": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "zpdi_cust_atcodecontent_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_cust_btd_idcontent_SDK": Object {
+          "length": 35,
+          "type": "cds.String",
+        },
+        "zpdi_cust_country_code_SDK": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "zpdi_cust_country_code_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_cust_date_SDK": Object {
+          "type": "cds.Timestamp",
+        },
+        "zpdi_cust_idcontent_SDK": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "zpdi_cust_ind_SDK": Object {
+          "type": "cds.Boolean",
+        },
+        "zpdi_cust_qtycontent_SDK": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "zpdi_cust_qtyunitCode_SDK": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "zpdi_cust_qtyunitCode_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_cust_text_SDK": Object {
+          "length": 120,
+          "type": "cds.String",
+        },
+        "zpdi_cust_uuidcontent_SDK": Object {
+          "type": "cds.UUID",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountHasContactPersonCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BestReachedByCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BestReachedByCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Contact": Object {
+          "target": "c4codata.ContactCollection",
+          "type": "cds.Association",
+        },
+        "ContactFormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "ContactID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Department": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "DepartmentCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "DepartmentCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmailInvalidIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FunctionCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "FunctionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "JobTitle": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "MainIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OrganisationAddressUUID": Object {
+          "type": "cds.UUID",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "VIPReasonCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "VIPReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_bpr_amtcontent_SDK": Object {
+          "precision": 28,
+          "scale": 6,
+          "type": "cds.Decimal",
+        },
+        "zpdi_bpr_amtcurrencyCode_SDK": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "zpdi_bpr_amtcurrencyCode_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_bpr_atcodecontent_SDK": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "zpdi_bpr_atcodecontent_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_bpr_btd_idcontent_SDK": Object {
+          "length": 35,
+          "type": "cds.String",
+        },
+        "zpdi_bpr_country_code_SDK": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "zpdi_bpr_country_code_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_bpr_date_SDK": Object {
+          "type": "cds.Timestamp",
+        },
+        "zpdi_bpr_idcontent_SDK": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "zpdi_bpr_ind_SDK": Object {
+          "type": "cds.Boolean",
+        },
+        "zpdi_bpr_qtycontent_SDK": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "zpdi_bpr_qtyunitCode_SDK": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "zpdi_bpr_qtyunitCode_SDKText": Object {
+          "type": "cds.LargeString",
+        },
+        "zpdi_bpr_text_SDK": Object {
+          "length": 120,
+          "type": "cds.String",
+        },
+        "zpdi_bpr_uuidcontent_SDK": Object {
+          "type": "cds.UUID",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountIdentificationCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntryDate": Object {
+          "type": "cds.Date",
+        },
+        "IDNumber": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "IDTypeCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "IDTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ResponsibleInstitution": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ValidFrom": Object {
+          "type": "cds.Date",
+        },
+        "ValidTo": Object {
+          "type": "cds.Date",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountInternationalVersionCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AdditionalName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AdditionalName2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AdditionalName3": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine1": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine4": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine5": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BusinessPartnerFormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CareOfName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "City": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CompanyPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "County": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CurrentDefaultAddressUUID": Object {
+          "type": "cds.UUID",
+        },
+        "DifferentCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "District": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "HouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "InternationalVersionCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "InternationalVersionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Name": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "POBox": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxDeviatingRegionCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingRegionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "POBoxPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Street": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "StreetPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountSalesDataCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BillingBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "BillingBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CompleteDeliveryRequestedIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "CurrencyCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CurrencyCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CustomerGroupCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "CustomerGroupCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DeliveryBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DeliveryBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DeliveryPriorityCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DeliveryPriorityCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DistributionChannelCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DistributionChannelCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DivisionCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DivisionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "IncotermsClassificationCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "IncotermsClassificationCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "IncotermsLocation": Object {
+          "length": 28,
+          "type": "cds.String",
+        },
+        "MarkedForDeletionIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "PaymentTermsCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "PaymentTermsCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "PlantID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "PlantName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "PlantUUID": Object {
+          "type": "cds.UUID",
+        },
+        "PriceGroupCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "PriceGroupCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "PriceListCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "PriceListCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "SalesGroupID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesGroupName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "SalesGroupUUID": Object {
+          "type": "cds.UUID",
+        },
+        "SalesOfficeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesOfficeName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "SalesOfficeUUID": Object {
+          "type": "cds.UUID",
+        },
+        "SalesOrganisationID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesOrganisationName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "SalesOrganisationUUID": Object {
+          "type": "cds.UUID",
+        },
+        "SalesSupportBlockingIndicator": Object {
+          "type": "cds.Boolean",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountSkillsCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "Mandatory": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "SkillID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountTaxNumberCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "TaxID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "TaxTypeCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "TaxTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountTeamCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "DistributionChannelCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DistributionChannelCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DivisionCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DivisionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EmployeeBasicData": Object {
+          "target": "c4codata.EmployeeBasicDataCollection",
+          "type": "cds.Association",
+        },
+        "EmployeeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "EmployeeUUID": Object {
+          "type": "cds.UUID",
+        },
+        "EndDate": Object {
+          "type": "cds.Date",
+        },
+        "MainIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "PartyRoleCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "PartyRoleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "SalesOrganisationID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "StartDate": Object {
+          "type": "cds.Date",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountTextCollectionCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AuthorName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "CreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CreatedByIdentityID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CreatedByTechnicalUserIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LastUpdatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "LastUpdatedByIdentityID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "LastUpdatedByTechnicalUserIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Text": Object {
+          "type": "cds.LargeString",
+        },
+        "UpdatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountVisitingHoursCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccount": Object {
+          "target": "c4codata.CorporateAccountCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountVisitingHoursRecurrence": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountVisitingHoursRecurrenceCollection",
+          "type": "cds.Association",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "WorkingDayCalendarCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "WorkingDayCalendarCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountVisitingHoursOperatingPeriodCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccountVisitingHoursRecurrence": Object {
+          "target": "c4codata.CorporateAccountVisitingHoursRecurrenceCollection",
+          "type": "cds.Association",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EndTime": Object {
+          "type": "cds.Time",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "StartTime": Object {
+          "type": "cds.Time",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountVisitingHoursRecurrenceCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CorporateAccountVisitingHours": Object {
+          "target": "c4codata.CorporateAccountVisitingHoursCollection",
+          "type": "cds.Association",
+        },
+        "CorporateAccountVisitingHoursOperatingPeriod": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.CorporateAccountVisitingHoursOperatingPeriodCollection",
+          "type": "cds.Association",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "FridayIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "MondayIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "SaturdayIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "SundayIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ThursdayIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "TuesdayIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "WednesdayIndicator": Object {
+          "type": "cds.Boolean",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.CorporateAccountVisitingInformationDetailsCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AccountID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "DistributionChannelCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DistributionChannelCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DivisionCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DivisionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "LastVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "LatestRecommendedVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "NextVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "RecommendedVisitingFrequency": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesOrganisationID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "VisitDuration": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "VisitTypeCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "VisitTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.EmployeeBasicDataCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AcademicTitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "AddressLine1": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine4": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine5": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "BusinessPartnerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "BusinessUser": Object {
+          "target": "c4codata.BusinessUserCollection",
+          "type": "cds.Association",
+        },
+        "ChangedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "ChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "City": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "CurrentExternalEmployeeIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "CurrentInternalEmployeeIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmployeeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "EmployeeUUID": Object {
+          "type": "cds.UUID",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "FirstName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "FormattedAddress": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "GenderCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "HouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "IdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "JobName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LastName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ManagerEmployeeBasicData": Object {
+          "target": "c4codata.EmployeeBasicDataCollection",
+          "type": "cds.Association",
+        },
+        "ManagerFormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "ManagerUUID": Object {
+          "type": "cds.UUID",
+        },
+        "MiddleName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NickName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "PostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "RegionCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "SecondLastName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Street": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "UserID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "UserLockedIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "UserPasswordPolicyCode": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "UserValidityEndDate": Object {
+          "type": "cds.Date",
+        },
+        "UserValidityStartDate": Object {
+          "type": "cds.Date",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerAddressCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AdditionalHouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AddressLine1": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine4": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine5": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "BestReachedByCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BestReachedByCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BillTo": Object {
+          "type": "cds.Boolean",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CareOfName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "City": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "County": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "DefaultBillTo": Object {
+          "type": "cds.Boolean",
+        },
+        "DefaultShipTo": Object {
+          "type": "cds.Boolean",
+        },
+        "DifferentCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "District": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmailInvalidIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FormattedAddressFirstLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedAddressFourthLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedAddressSecondLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedAddressThirdLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressFirstLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressSecondLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressThirdLineDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "HouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "IndividualCustomer": Object {
+          "target": "c4codata.IndividualCustomerCollection",
+          "type": "cds.Association",
+        },
+        "Latitude": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "Longitude": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "MainIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedMobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedPhone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "POBox": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxDeviatingStateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingStateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "POBoxPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ShipTo": Object {
+          "type": "cds.Boolean",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Street": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "StreetPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "WebSite": Object {
+          "length": 1280,
+          "type": "cds.String",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerAttachmentFolderCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "Binary": Object {
+          "type": "cds.LargeBinary",
+        },
+        "CategoryCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "CategoryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CreatedBy": Object {
+          "length": 80,
+          "type": "cds.String",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "DocumentLink": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "LastUpdatedBy": Object {
+          "length": 80,
+          "type": "cds.String",
+        },
+        "LastUpdatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "LinkWebURI": Object {
+          "type": "cds.LargeString",
+        },
+        "MimeType": Object {
+          "type": "cds.LargeString",
+        },
+        "Name": Object {
+          "type": "cds.LargeString",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OutputRelevanceIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "SizeInkB": Object {
+          "precision": 31,
+          "scale": 14,
+          "type": "cds.Decimal",
+        },
+        "Title": Object {
+          "type": "cds.LargeString",
+        },
+        "TypeCode": Object {
+          "length": 5,
+          "type": "cds.String",
+        },
+        "TypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UUID": Object {
+          "type": "cds.UUID",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AcademicTitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "AcademicTitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "AdditionalHouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "AdditionalLastName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine1": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine2": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine4": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "AddressLine5": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "BestReachedByCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "BestReachedByCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BillingBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "BillingBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "BirthDate": Object {
+          "type": "cds.Date",
+        },
+        "BirthName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Building": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "CareOfName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ChangedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "ChangedByIdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "ChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "City": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ContactPermissionCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "ContactPermissionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "County": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CreatedByIdentityUUID": Object {
+          "type": "cds.UUID",
+        },
+        "CreationOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "CustomerABCClassificationCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "CustomerABCClassificationCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "DeliveryBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DeliveryBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DifferentCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "District": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "Email": Object {
+          "length": 255,
+          "type": "cds.String",
+        },
+        "EmailInvalidIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "ExternalID": Object {
+          "length": 100,
+          "type": "cds.String",
+        },
+        "ExternalSystem": Object {
+          "length": 32,
+          "type": "cds.String",
+        },
+        "Fax": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "FirstName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Floor": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "FormattedName": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "FormattedPostalAddressDescription": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "GenderCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "GenderCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "HouseNumber": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "IndividualCustomerAddress": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerAddressCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerAttachmentFolder": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerAttachmentFolderCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerIdentification": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerIdentificationCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerSalesData": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerSalesDataCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerSkills": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerSkillsCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerTaxNumber": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerTaxNumberCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerTeam": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerTeamCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerTextCollection": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerTextCollectionCollection",
+          "type": "cds.Association",
+        },
+        "IndividualCustomerVisitingInformationDetails": Object {
+          "cardinality": Object {
+            "max": "*",
+          },
+          "target": "c4codata.IndividualCustomerVisitingInformationDetailsCollection",
+          "type": "cds.Association",
+        },
+        "Initials": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LastName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "LastVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "LatestRecommendedVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "LifeCycleStatusCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LifeCycleStatusCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "MaritalStatusCode": Object {
+          "length": 1,
+          "type": "cds.String",
+        },
+        "MaritalStatusCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "MiddleName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "Mobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NamePrefixCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "NamePrefixCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "NationalityCountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "NationalityCountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "NextVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "NickName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedMobile": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "NormalisedPhone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "OwnerEmployeeBasicData": Object {
+          "target": "c4codata.EmployeeBasicDataCollection",
+          "type": "cds.Association",
+        },
+        "OwnerID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "OwnerUUID": Object {
+          "type": "cds.UUID",
+        },
+        "POBox": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCity": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingCountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxDeviatingStateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "POBoxDeviatingStateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "POBoxIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "POBoxPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "Phone": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "ProfessionCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "ProfessionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "RecommendedVisitingFrequency": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "RoleCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "RoleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Room": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "SalesSupportBlockingIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "Street": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "StreetPostalCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TaxJurisdictionCode": Object {
+          "length": 25,
+          "type": "cds.String",
+        },
+        "TaxJurisdictionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "TimeZoneCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "TimeZoneCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "TitleCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "TitleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "UUID": Object {
+          "type": "cds.UUID",
+        },
+        "VisitDuration": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "WebSite": Object {
+          "length": 1280,
+          "type": "cds.String",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerIdentificationCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntryDate": Object {
+          "type": "cds.Date",
+        },
+        "IDNumber": Object {
+          "length": 60,
+          "type": "cds.String",
+        },
+        "IDTypeCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "IDTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "IndividualCustomer": Object {
+          "target": "c4codata.IndividualCustomerCollection",
+          "type": "cds.Association",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ResponsibleInstitution": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "StateCode": Object {
+          "length": 6,
+          "type": "cds.String",
+        },
+        "StateCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ValidFrom": Object {
+          "type": "cds.Date",
+        },
+        "ValidTo": Object {
+          "type": "cds.Date",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerSalesDataCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "BillingBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "BillingBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CompleteDeliveryRequestedIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "CurrencyCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CurrencyCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CustomerGroupCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "CustomerGroupCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "DeliveryBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DeliveryBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DeliveryPriorityCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DeliveryPriorityCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DistributionChannelCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DistributionChannelCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DivisionCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DivisionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "IncotermsClassificationCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "IncotermsClassificationCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "IncotermsLocation": Object {
+          "length": 28,
+          "type": "cds.String",
+        },
+        "MarkedForDeletionIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "OrderBlockingReasonCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "PaymentTermsCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "PaymentTermsCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "PlantID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "PlantName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "PlantUUID": Object {
+          "type": "cds.UUID",
+        },
+        "PriceGroupCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "PriceGroupCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "PriceListCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "PriceListCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "SalesGroupID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesGroupName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "SalesOfficeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesOfficeName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "SalesOrganisationID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesOrganisationName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "SalesSupportBlockingIndicator": Object {
+          "type": "cds.Boolean",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerSkillsCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "IndividualCustomer": Object {
+          "target": "c4codata.IndividualCustomerCollection",
+          "type": "cds.Association",
+        },
+        "Mandatory": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "SkillID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerTaxNumberCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "CountryCode": Object {
+          "length": 3,
+          "type": "cds.String",
+        },
+        "CountryCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "IndividualCustomer": Object {
+          "target": "c4codata.IndividualCustomerCollection",
+          "type": "cds.Association",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "TaxID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "TaxTypeCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "TaxTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerTaxNumberTaxTypeCodeCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "Code": Object {
+          "key": true,
+          "type": "cds.LargeString",
+        },
+        "Context": Object {
+          "key": true,
+          "type": "cds.LargeString",
+        },
+        "Description": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerTeamCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "DistributionChannelCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DistributionChannelCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DivisionCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DivisionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EmployeeBasicData": Object {
+          "target": "c4codata.EmployeeBasicDataCollection",
+          "type": "cds.Association",
+        },
+        "EmployeeID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "EmployeeUUID": Object {
+          "type": "cds.UUID",
+        },
+        "EndDate": Object {
+          "type": "cds.Date",
+        },
+        "IndividualCustomer": Object {
+          "target": "c4codata.IndividualCustomerCollection",
+          "type": "cds.Association",
+        },
+        "MainIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "PartyRoleCode": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "PartyRoleCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "SalesOrganisationID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "StartDate": Object {
+          "type": "cds.Date",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerTextCollectionCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "AuthorName": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CreatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "CreatedByIdentityID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "CreatedByTechnicalUserIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "CreatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "EntityLastChangedOn": Object {
+          "type": "cds.Timestamp",
+        },
+        "IndividualCustomer": Object {
+          "target": "c4codata.IndividualCustomerCollection",
+          "type": "cds.Association",
+        },
+        "LanguageCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "LanguageCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "LastUpdatedBy": Object {
+          "length": 480,
+          "type": "cds.String",
+        },
+        "LastUpdatedByIdentityID": Object {
+          "length": 40,
+          "type": "cds.String",
+        },
+        "LastUpdatedByTechnicalUserIndicator": Object {
+          "type": "cds.Boolean",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "Text": Object {
+          "type": "cds.LargeString",
+        },
+        "UpdatedOn": Object {
+          "type": "cds.Timestamp",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerVisitingInformationDetailsCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "CustomerID": Object {
+          "length": 10,
+          "type": "cds.String",
+        },
+        "DistributionChannelCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DistributionChannelCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "DivisionCode": Object {
+          "length": 2,
+          "type": "cds.String",
+        },
+        "DivisionCodeText": Object {
+          "type": "cds.LargeString",
+        },
+        "ETag": Object {
+          "type": "cds.Timestamp",
+        },
+        "LastVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "LatestRecommendedVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "NextVisitingDate": Object {
+          "type": "cds.Date",
+        },
+        "ObjectID": Object {
+          "key": true,
+          "length": 70,
+          "type": "cds.String",
+        },
+        "ParentObjectID": Object {
+          "length": 70,
+          "type": "cds.String",
+        },
+        "RecommendedVisitingFrequency": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "SalesOrganisationID": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "VisitDuration": Object {
+          "length": 20,
+          "type": "cds.String",
+        },
+        "VisitTypeCode": Object {
+          "length": 4,
+          "type": "cds.String",
+        },
+        "VisitTypeCodeText": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+    "c4codata.IndividualCustomerVisitingInformationDetailsVisitTypeCodeCollection": Object {
+      "@cds.persistence.skip": true,
+      "elements": Object {
+        "Code": Object {
+          "key": true,
+          "type": "cds.LargeString",
+        },
+        "Description": Object {
+          "type": "cds.LargeString",
+        },
+      },
+      "kind": "entity",
+    },
+  },
+}
+`;
