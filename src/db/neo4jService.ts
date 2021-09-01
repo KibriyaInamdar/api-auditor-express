@@ -1,16 +1,13 @@
-// import neo4j, { Driver, Result } from 'neo4j-driver';
-// import { getDriver } from './neo4jUtil';
 
-// const driver = getDriver();
+import { Integer } from "neo4j-driver";
+import { Neo4jEntity } from "./neo4jUtil";
 
-// // export const avc = () => {
 
-// //     driver.session().run
-// // }
+export async function getNodeCountFromDb(database?: string): Promise<Integer> {
 
-// // export function getReadSession(database: string) {
-// //     return driver.session({
-// //       database: database || this.config.database,
-// //       defaultAccessMode: neo4j.session.READ,
-// //     });
-// //   }
+    const neo4jUtils = new Neo4jEntity();
+    const query = 'MATCH (n) RETURN count(n) AS count';
+    const result = await neo4jUtils.read(query, {});
+    const count = result.records[0].get('count');
+    return count;
+  }

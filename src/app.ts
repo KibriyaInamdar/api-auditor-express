@@ -2,6 +2,7 @@ import express, {Application, Request, Response, NextFunction} from 'express';
 import getAllUsers from './routes/getAllUsers';
 import neo4j from 'neo4j-driver';
 import { fetchData, readFileToCsn } from './api-auditor/apiAuditorService';
+import { getNodeCountFromDb } from './db/neo4jService';
 
 
 const app: express.Application = express();
@@ -15,15 +16,15 @@ app.get('/', (req:Request, res:Response, newxt: NextFunction) =>{
     res.send(`Hello `);
 });
 
-app.get('/*', async (req, res) => {
-    // const response = await getDataFromUrl(req, `${req.url}`, "");
+// app.get('/*', async (req, res) => {
+//     // const response = await getDataFromUrl(req, `${req.url}`, "");
 
-    const filepath = './src/data/customer.edmx' 
-    const file = await fetchData(req, req.url, '');
-    console.log(`file: ${file}`);
+//     const filepath = './src/data/customer.edmx' 
+//     const file = await fetchData(req, req.url, '');
+//     console.log(`file: ${file}`);
 
-    res.send(`<pre><code>${JSON.stringify(file, null, 2)}</code></pre>`);
-});
+//     res.send(`<pre><code>${JSON.stringify(file, null, 2)}</code></pre>`);
+// });
 
 app.get('/users', getAllUsers);
 
@@ -56,11 +57,14 @@ const session = driver.session({
 
 app.get('/db', async (req:Request, res:Response, newxt: NextFunction) =>{
 
-    //scenario 1: get count
-    const query = 'MATCH (n) RETURN count(n) AS count';
+    // //scenario 1: get count
+    // const query = 'MATCH (n) RETURN count(n) AS count';
 
-    const result = await session.run(query);
-    const count = result.records[0].get('count');
+    // const result = await session.run(query);
+    // const count = result.records[0].get('count');
+   
+
+    const count = getNodeCountFromDb();
     res.send(`Node count : ${count}`);
 
  /*    //scenario 2: get nodes

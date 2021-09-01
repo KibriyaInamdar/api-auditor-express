@@ -1,6 +1,6 @@
 import { fetchDataFromUsingAxios, readFileToCsn } from "./apiAuditorService";
 import axios from "axios";
-const mockedAxios = axios as jest.Mocked<typeof axios>
+const mockedAxios = axios as jest.Mocked<typeof axios>;
 
 jest.mock('axios');
 
@@ -225,9 +225,6 @@ describe("API Auditor service tests", () => {
         expect(file).toMatchSnapshot(expectedFile);
     });
 
-  
- 
- 
 });
 
 describe('Fetch data from url: axios', () => {

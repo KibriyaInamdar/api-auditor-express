@@ -19,9 +19,19 @@ export const readFileToCsn = async (filePath: string) => {
     return csnFile;
 }
 
+export const readFile = async (filePath: string) => {
+  console.log(`filepath: ${filePath}`);
+  const file = await fsPromise.readFile(filePath, 'utf8');
+  return file;
+}
+export const readFileToJson = async (file: string) => {
+  const jsonFile= JSON.parse(await generateCSN(file, false, true));
+  return jsonFile;
+}
+
 export async function  fetchData(req: any, entity: string, params: string): Promise<string>  {
     console.log(`req: ${req.url}, entity: ${entity}, params: ${params}`);
-    const url = `https://sandbox.api.sap.com/${entity}${
+    const url = `https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/${entity}${
       params ? `?${params}` : ''
     }`;
     console.log(url); //for debugging
