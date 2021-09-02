@@ -2,6 +2,7 @@ export class ApiSpecification {
   public filePath: string;
   public content: any;
   public namespaces: string[] = [];
+  public entityContent: EntityContent[] = [];
   // public entityTypes: EntityType[];
   // public association: ApiAssociation[];
   // public entityContainer: EntityContainer[];
@@ -16,50 +17,26 @@ export class ApiSpecification {
     this.content = JSON.parse(JSON.stringify(file)) as ApiSpecificationContent;
     const definitions = this.content['definitions'];
     this.namespaces = Object.keys(definitions);
-
-
-    // Object.entries(definitions).forEach(([key, value]) => {
-    //   console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
-    // });
-   /*  namespaces.forEach(namespace => {
-      console.log(namespace);
-      console.log()
-      
-    }); */
-
-  //   for (var key in definitions) {
-  //     console.log("Key: " + key);
-  //     console.log("Value: " + definitions[key]);
-  // }
-
-
-    // this.namespace =
-    //   this.content['edmx:Edmx']['edmx:DataServices'][0].Schema[0].$.Namespace;
-
-    // console.log(`namespace: ${this.namespace}`);
-    // this.entityTypes = setEntityTypes(
-    //   this.content['edmx:Edmx']['edmx:DataServices'][0].Schema[0].EntityType,
-    // );
-
-    // console.log(`entityTypes: ${this.entityTypes}`);
-    // this.association =
-    //   this.content['edmx:Edmx']['edmx:DataServices'][0].Schema[0].Association;
-
-    // this.entityContainer = setEntityContainers(
-    //   this.content['edmx:Edmx']['edmx:DataServices'][0].Schema[0]
-    //     .EntityContainer,
-    // );
-
-    // console.log(`this.entityTypes`);
-    // console.log(this.entityTypes);
-
   };
+
 }
 type ApiSpecificationContent = {
   definitions: {
 
   };
 };
+
+export type ApiSpecificationEntityContent = {
+  d: {
+    results: EntityContent[]
+  }
+}
+
+export type EntityContent = {
+  result: {
+
+  }
+}
 // function findProp(obj, prop, defval) {
 //   if (typeof defval === 'undefined') defval = null;
 //   prop = prop.split('.');

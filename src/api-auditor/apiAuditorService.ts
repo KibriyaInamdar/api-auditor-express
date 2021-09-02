@@ -30,13 +30,19 @@ export const readFileToJson = async (file: string) => {
 }
 
 export async function  fetchData(req: any, entity: string, params: string): Promise<string>  {
-    console.log(`req: ${req.url}, entity: ${entity}, params: ${params}`);
-    const url = `https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/${entity}${
-      params ? `?${params}` : ''
-    }`;
-    console.log(url); //for debugging
-    const response = fetchDataFromUsingAxios(url);
+
+    const url = getUrl(req, entity, params);
+    const response = await fetchDataFromUsingAxios(url);
     return response;
+}
+
+export function  getUrl(req: any, entity: string, params: string): string  {
+  // console.log(`req: ${req.url}, entity: ${entity}, params: ${params}`);
+  const url = `https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/${entity}${
+    params ? `?${params}` : ''
+  }`;
+  console.log(url); //for debugging
+  return url;
 }
 
 

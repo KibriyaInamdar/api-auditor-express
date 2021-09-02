@@ -38,6 +38,7 @@ import { Neo4jConfig } from './neo4j-config.interface';
       }
     
     write(cypher: string, params: Record<string, any>, database?: string): Result {
+      // console.log(`cypher: ${cypher}`);
         const session = this.getWriteSession(database);
         return session.run(cypher, params);
       }
