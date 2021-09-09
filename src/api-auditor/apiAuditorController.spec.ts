@@ -1,4 +1,5 @@
 import { apiAuditorController } from "./apiAuditorController";
+
 describe('API Auditor Controller', () => {
 
     test("Fetches successfully data from an API", async () => {
