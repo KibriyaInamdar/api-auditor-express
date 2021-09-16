@@ -1,0 +1,248 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')",
+          "type": "c4codata.Contact",
+          "etag": "W/\"datetimeoffset'2020-04-08T16%3A11%3A03.0910530Z'\""
+        },
+        "ObjectID": "00163E038C2E1EE299C1BB0BE93B6F9B",
+        "ContactID": "1000476",
+        "ContactUUID": "00163E03-8C2E-1EE2-99C1-BB0BE93B6F9B",
+        "ExternalID": "",
+        "ExternalSystem": "",
+        "StatusCode": "4",
+        "StatusCodeText": "Obsolete",
+        "TitleCode": "",
+        "TitleCodeText": "",
+        "AcademicTitleCode": "",
+        "AcademicTitleCodeText": "",
+        "AdditionalAcademicTitleCode": "",
+        "AdditionalAcademicTitleCodeText": "",
+        "NamePrefixCode": "",
+        "NamePrefixCodeText": "",
+        "FirstName": "Peter",
+        "LastName": "Gamoff",
+        "AdditionalFamilyName": "",
+        "Initials": "",
+        "MiddleName": "",
+        "Name": "Peter Gamoff",
+        "GenderCode": "0",
+        "GenderCodeText": "Gender not known",
+        "MaritalStatusCode": "",
+        "MaritalStatusCodeText": "",
+        "LanguageCode": "",
+        "LanguageCodeText": "",
+        "NickName": "",
+        "BirthDate": null,
+        "BirthName": "",
+        "ContactPermissionCode": "",
+        "ContactPermissionCodeText": "",
+        "ProfessionCode": "",
+        "ProfessionCodeText": "",
+        "PerceptionOfCompanyCode": "",
+        "PerceptionOfCompanyCodeText": "",
+        "AccountID": "1001",
+        "AccountUUID": "00163E03-8C2E-1EE2-99C1-BB0BE9398F9B",
+        "AccountFormattedName": "Porter LLC",
+        "Building": "",
+        "Floor": "",
+        "Room": "",
+        "JobTitle": "",
+        "FunctionCode": "0002",
+        "FunctionCodeText": "Purchasing Manager",
+        "DepartmentCode": "0001",
+        "DepartmentCodeText": "Purchasing Dept",
+        "Department": "",
+        "VIPContactCode": "",
+        "VIPContactCodeText": "",
+        "Phone": "+1 (865) 813-0643",
+        "Mobile": "+1 (712) 242-5596",
+        "Fax": "+1 (573) 598-7485",
+        "Email": "doug.gamoff@3M.com",
+        "EmailInvalidIndicator": false,
+        "BestReachedByCode": "",
+        "BestReachedByCodeText": "",
+        "FormattedPostalAddressDescription": "5 Centerstage / St. Paul MN 55144 / US",
+        "BusinessAddressCountryCode": "US",
+        "BusinessAddressCountryCodeText": "United States",
+        "BusinessAddressStateCodeTextUpdatable": "Minnesota",
+        "BusinessAddressHouseNumber": "5",
+        "BusinessAddressStreet": "Centerstage",
+        "BusinessAddressCity": "St. Paul",
+        "BusinessAddressStreetPostalCode": "55144",
+        "BusinessAddressStateCode": "MN",
+        "BusinessAddressStateCodeText": "Minnesota",
+        "CreationOn": "/Date(1359022159693)/",
+        "CreatedBy": "Eddie Smoke",
+        "CreatedByIdentityUUID": "00163E03-A070-1EE2-88BA-39BD20F290B5",
+        "ChangedOn": "/Date(1586362263091)/",
+        "ChangedBy": "Robert Mark",
+        "ChangedByIdentityUUID": "00163E0C-84E2-1ED7-80DF-DF0660BB2577",
+        "ContactOwnerID": "",
+        "ContactOwnerUUID": null,
+        "NormalisedPhone": "+18658130643",
+        "NormalisedMobile": "+17122425596",
+        "EntityLastChangedOn": "/Date(1586362263091)/",
+        "ETag": "/Date(1586362263091)/",
+        "ContactAttachmentFolder": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')/ContactAttachmentFolder"
+          }
+        },
+        "ContactInternationalVersion": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')/ContactInternationalVersion"
+          }
+        },
+        "ContactIsContactPersonFor": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')/ContactIsContactPersonFor"
+          }
+        },
+        "ContactOwnerEmployeeBasicData": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')/ContactOwnerEmployeeBasicData"
+          }
+        },
+        "ContactPersonalAddress": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')/ContactPersonalAddress"
+          }
+        },
+        "ContactTextCollection": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')/ContactTextCollection"
+          }
+        },
+        "CorporateAccount": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB0BE93B6F9B')/CorporateAccount"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')",
+          "type": "c4codata.Contact",
+          "etag": "W/\"datetimeoffset'2020-05-04T05%3A54%3A03.5602190Z'\""
+        },
+        "ObjectID": "00163E038C2E1EE299C1BB281BEBCF9B",
+        "ContactID": "1000475",
+        "ContactUUID": "00163E03-8C2E-1EE2-99C1-BB281BEBCF9B",
+        "ExternalID": "1000882",
+        "ExternalSystem": "CRM1",
+        "StatusCode": "2",
+        "StatusCodeText": "Active",
+        "TitleCode": "",
+        "TitleCodeText": "",
+        "AcademicTitleCode": "",
+        "AcademicTitleCodeText": "",
+        "AdditionalAcademicTitleCode": "",
+        "AdditionalAcademicTitleCodeText": "",
+        "NamePrefixCode": "",
+        "NamePrefixCodeText": "",
+        "FirstName": "Kyle",
+        "LastName": "Beckerman",
+        "AdditionalFamilyName": "",
+        "Initials": "",
+        "MiddleName": "",
+        "Name": "Kyle Beckerman",
+        "GenderCode": "0",
+        "GenderCodeText": "Gender not known",
+        "MaritalStatusCode": "",
+        "MaritalStatusCodeText": "",
+        "LanguageCode": "",
+        "LanguageCodeText": "",
+        "NickName": "",
+        "BirthDate": null,
+        "BirthName": "",
+        "ContactPermissionCode": "",
+        "ContactPermissionCodeText": "",
+        "ProfessionCode": "",
+        "ProfessionCodeText": "",
+        "PerceptionOfCompanyCode": "",
+        "PerceptionOfCompanyCodeText": "",
+        "AccountID": "1003",
+        "AccountUUID": "00163E03-8C2E-1EE2-99C1-BB0BE93C2F9B",
+        "AccountFormattedName": "Milers Corp",
+        "Building": "",
+        "Floor": "",
+        "Room": "",
+        "JobTitle": "",
+        "FunctionCode": "0002",
+        "FunctionCodeText": "Purchasing Manager",
+        "DepartmentCode": "0001",
+        "DepartmentCodeText": "Purchasing Dept",
+        "Department": "",
+        "VIPContactCode": "",
+        "VIPContactCodeText": "",
+        "Phone": "+91 9886629103",
+        "Mobile": "+91 9886629103",
+        "Fax": "+1 (404) 676-2124",
+        "Email": "kyle.beckerman@thecoca-colacompany.com",
+        "EmailInvalidIndicator": false,
+        "BestReachedByCode": "",
+        "BestReachedByCodeText": "",
+        "FormattedPostalAddressDescription": "1 Coca Cola Plaza / Atlanta 30313 / US",
+        "BusinessAddressCountryCode": "US",
+        "BusinessAddressCountryCodeText": "United States",
+        "BusinessAddressStateCodeTextUpdatable": "Georgia",
+        "BusinessAddressHouseNumber": "1",
+        "BusinessAddressStreet": "Coca Cola Plaza",
+        "BusinessAddressCity": "Atlanta",
+        "BusinessAddressStreetPostalCode": "30313",
+        "BusinessAddressStateCode": "GA",
+        "BusinessAddressStateCodeText": "Georgia",
+        "CreationOn": "/Date(1359022159693)/",
+        "CreatedBy": "Eddie Smoke",
+        "CreatedByIdentityUUID": "00163E03-A070-1EE2-88BA-39BD20F290B5",
+        "ChangedOn": "/Date(1573716314156)/",
+        "ChangedBy": "Robert Mark",
+        "ChangedByIdentityUUID": "00163E0C-84E2-1ED7-80DF-DF0660BB2577",
+        "ContactOwnerID": "",
+        "ContactOwnerUUID": null,
+        "NormalisedPhone": "+919886629103",
+        "NormalisedMobile": "+919886629103",
+        "EntityLastChangedOn": "/Date(1573716314156)/",
+        "ETag": "/Date(1588571643560)/",
+        "ContactAttachmentFolder": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')/ContactAttachmentFolder"
+          }
+        },
+        "ContactInternationalVersion": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')/ContactInternationalVersion"
+          }
+        },
+        "ContactIsContactPersonFor": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')/ContactIsContactPersonFor"
+          }
+        },
+        "ContactOwnerEmployeeBasicData": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')/ContactOwnerEmployeeBasicData"
+          }
+        },
+        "ContactPersonalAddress": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')/ContactPersonalAddress"
+          }
+        },
+        "ContactTextCollection": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')/ContactTextCollection"
+          }
+        },
+        "CorporateAccount": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/ContactCollection('00163E038C2E1EE299C1BB281BEBCF9B')/CorporateAccount"
+          }
+        }
+      }
+    ]
+  }
+}
