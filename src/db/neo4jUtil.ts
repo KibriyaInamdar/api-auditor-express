@@ -83,7 +83,7 @@ export const createDriver = () => {
 export function randomString(): string {
   const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split('');
 
-  const length = 5;
+  const length = 2;
   var str = '';
   for (var i = 0; i < length; i++) {
       str += chars[Math.floor(Math.random() * chars.length)];

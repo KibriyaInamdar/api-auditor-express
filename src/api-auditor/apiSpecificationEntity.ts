@@ -6,7 +6,11 @@ export class ApiSpecification {
   public invalidEntities :string[] = [];
   public validEntities :string[] = [];
 
-  public entityContent: EntityContent[] = [];
+  // public entityContent: EntityContent[] = [];
+
+  // public entityType = new Map<string, string>();
+  public entityContent: EntityContent | undefined;
+
 
   constructor(filePath: string) {
     this.filePath = filePath;
@@ -28,12 +32,15 @@ type ApiSpecificationContent = {
 
 export type ApiSpecificationEntityContent = {
   d: {
-    results: EntityContent[]
+    results: EntityResponse[]
   }
 }
 
-export type EntityContent = {
+export type EntityResponse = {
   result: {
-
   }
 }
+
+export type EntityValue = Record<string, unknown>;
+
+export type EntityContent = Record<string, EntityValue[]>;
