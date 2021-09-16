@@ -1,6 +1,6 @@
-import { fetchDataFromUsingAxios, readFileToCsn } from "./apiAuditorService";
+import {  readFileToCsn, fetchDataFromUrlUsingAxios } from "./apiAuditorService";
 import axios from "axios";
-const mockedAxios = axios as jest.Mocked<typeof axios>
+const mockedAxios = axios as jest.Mocked<typeof axios>;
 
 jest.mock('axios');
 
@@ -225,9 +225,6 @@ describe("API Auditor service tests", () => {
         expect(file).toMatchSnapshot(expectedFile);
     });
 
-  
- 
- 
 });
 
 describe('Fetch data from url: axios', () => {
@@ -238,13 +235,13 @@ describe('Fetch data from url: axios', () => {
             data: mockData,
         });
         mockedAxios.get.mockImplementationOnce(() => Promise.resolve(mockData));
-        await expect(fetchDataFromUsingAxios('url')).resolves.toEqual(mockData);
+        await expect(fetchDataFromUrlUsingAxios('url')).resolves.toEqual(mockData);
     });
 
     test("Fetches erroneously data from an API", async () => {
-        const errorMessage = `could not fetch metadata for url: url with error: TypeError: Cannot read property 'data' of undefined`;
+        const errorMessage = `could not fetch metadata for url: url with error: TypeError: Cannot read property 'status' of undefined`;
 
         mockedAxios.get.mockImplementationOnce(() => Promise.reject(new Error(errorMessage)));
-        await expect(fetchDataFromUsingAxios('url')).rejects.toThrow(errorMessage);
+        await expect(fetchDataFromUrlUsingAxios('url')).rejects.toThrow(errorMessage);
     })
 });
