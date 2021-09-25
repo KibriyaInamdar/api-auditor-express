@@ -1,0 +1,2405 @@
+[
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='AE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "AE",
+    "Description": "Dummy Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='AL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "AL",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='AO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "AO",
+    "Description": "Individuals (método declarativo)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='AO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "AO",
+    "Description": "Individuals (método da estimativa)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='AO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "AO",
+    "Description": "Individuals (Comércio Informal)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='AO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "AO",
+    "Description": "Companies (Empresas)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='AO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "AO",
+    "Description": "Institutional Entities"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='AR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "AR",
+    "Description": "VAT registration number for companies (CUIT)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='AR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "AR",
+    "Description": "VAT registration number for natural persons (CUIL)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='AR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "AR",
+    "Description": "Tax number for income tax"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='AR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "AR",
+    "Description": "Regional tax number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='AT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "AT",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='AT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "AT",
+    "Description": "General Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='AU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "AU",
+    "Description": "Business Number (ABN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='AZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "AZ",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='BA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "BA",
+    "Description": "VAT Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='BA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "BA",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='BD')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "BD",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='BE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "BE",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='BE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "BE",
+    "Description": "Enterprise Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='BE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "BE",
+    "Description": "Code not valid, use VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='BE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "BE",
+    "Description": "National Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='BG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "BG",
+    "Description": "Single ID Code (BULSTAT)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='BG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "BG",
+    "Description": "Personal ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='BG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "BG",
+    "Description": "Social Security Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='BG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "BG",
+    "Description": "Vat Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='BO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "BO",
+    "Description": "Tax Number NIT"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='BR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "BR",
+    "Description": "VAT registration number for companies (CNPJ)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='BR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "BR",
+    "Description": "VAT registration number for natural persons (CPF)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='BR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "BR",
+    "Description": "Tax number given by the relevant state (IE)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='BR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "BR",
+    "Description": "Tax number given by the relevant town or city (IM)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='BY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "BY",
+    "Description": "UNP Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='BY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "BY",
+    "Description": "OKPO Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CA",
+    "Description": "Federal Business Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "CA",
+    "Description": "Account Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "CA",
+    "Description": "Business Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "CA",
+    "Description": "Permit Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "CA",
+    "Description": "Quebec Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='6',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "6",
+    "Context": "CA",
+    "Description": "Quebec Enterprise Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='7',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "7",
+    "Context": "CA",
+    "Description": "QST Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='8',Context='CA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "8",
+    "Context": "CA",
+    "Description": "Social Insurance Number (SIN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CD')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CD",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CG",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CH')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CH",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='CH')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "CH",
+    "Description": "UID Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CI')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CI",
+    "Description": "Taxpayer Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CL",
+    "Description": "RUT Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CN",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='CN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "CN",
+    "Description": "Computer Code"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='CN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "CN",
+    "Description": "Tax Payer's File Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CO",
+    "Description": "31-NIT Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='10',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "10",
+    "Context": "CO",
+    "Description": "33-Different Foreigner ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='11',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "11",
+    "Context": "CO",
+    "Description": "42-Foreign Identification"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='12',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "12",
+    "Context": "CO",
+    "Description": "43-No Foreign ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='13',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "13",
+    "Context": "CO",
+    "Description": "44-Foreign ID Corporations"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='14',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "14",
+    "Context": "CO",
+    "Description": "46-Diplomatic ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "CO",
+    "Description": "13-Citizenship card"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "CO",
+    "Description": "41-Passport"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "CO",
+    "Description": "11-Birth Certificate"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "CO",
+    "Description": "12-Identity Card"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='6',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "6",
+    "Context": "CO",
+    "Description": "14-Certificate of Successions expedited by registration Authority"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='7',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "7",
+    "Context": "CO",
+    "Description": "15-Document expedited by Judge/Court"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='8',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "8",
+    "Context": "CO",
+    "Description": "21-Foreigner Card"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='9',Context='CO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "9",
+    "Context": "CO",
+    "Description": "22-Foreigner ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CR",
+    "Description": "Tax Number CR"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CU",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CW')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CW",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CY",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='CY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "CY",
+    "Description": "UID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='CY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "CY",
+    "Description": "IVD"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='CZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "CZ",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='CZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "CZ",
+    "Description": "Tax Number DIC"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='CZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "CZ",
+    "Description": "Tax Number ICO"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='DE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "DE",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='DE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "DE",
+    "Description": "Income Tax Number (§48)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='DE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "DE",
+    "Description": "Turnover tax no. (Credit proc. §14)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='DE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "DE",
+    "Description": "Tax number for electronic Tax declaration"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='DE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "DE",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='6',Context='DE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "6",
+    "Context": "DE",
+    "Description": "Income Tax ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='DK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "DK",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='DK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "DK",
+    "Description": "P-Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='DK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "DK",
+    "Description": "SE-Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='DO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "DO",
+    "Description": "Tax Number RNC"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='DZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "DZ",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='DZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "DZ",
+    "Description": "RC Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='DZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "DZ",
+    "Description": "Tax Article number (AI)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='EC')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "EC",
+    "Description": "Tax Number (RUC) for People"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='EC')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "EC",
+    "Description": "Tax Number (RUC) for Companies"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='EC')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "EC",
+    "Description": "Citizenship card"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='EC')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "EC",
+    "Description": "Passport"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='EE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "EE",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='EE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "EE",
+    "Description": "Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='EG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "EG",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='EG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "EG",
+    "Description": "Sales Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='EG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "EG",
+    "Description": "Commercial Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='ES')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "ES",
+    "Description": "VAT Registration Number (NOI)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='ES')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "ES",
+    "Description": "NIF Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='ES')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "ES",
+    "Description": "DNI Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='ES')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "ES",
+    "Description": "NIE Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='ES')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "ES",
+    "Description": "CIF Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='ET')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "ET",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='FI')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "FI",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='FJ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "FJ",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='FR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "FR",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='FR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "FR",
+    "Description": "Ministry of finance registration number SIRET"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='FR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "FR",
+    "Description": "Ministry of finance registration number SIREN"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "GB",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "GB",
+    "Description": "National Insurance Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "GB",
+    "Description": "Company Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "GB",
+    "Description": "Unique Taxpayer's Reference"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "GB",
+    "Description": "Accounts Office Reference"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='6',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "6",
+    "Context": "GB",
+    "Description": "Tax Office Reference Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='7',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "7",
+    "Context": "GB",
+    "Description": "Subcontractor Verification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='8',Context='GB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "8",
+    "Context": "GB",
+    "Description": "Employer's Reference Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='GH')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "GH",
+    "Description": "VAT Registration NUmber"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='GR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "GR",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='GR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "GR",
+    "Description": "Personal Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='GR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "GR",
+    "Description": "Tax number for domestic customers (AFM number)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='GT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "GT",
+    "Description": "Tax Identification Number(Individuals)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='GT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "GT",
+    "Description": "Personal Identification Document (DPI)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='GT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "GT",
+    "Description": "Tax Identification Number(Business)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='HK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "HK",
+    "Description": "HK Business Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='HK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "HK",
+    "Description": "HKID Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='HN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "HN",
+    "Description": "Tax Identification Number(Employee ID)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='HN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "HN",
+    "Description": "Tax Identification Number(Individuals)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='HN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "HN",
+    "Description": "Tax Identification Number(Business)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='HR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "HR",
+    "Description": "JMBG Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='HR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "HR",
+    "Description": "OIB Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='HR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "HR",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='HU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "HU",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='HU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "HU",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='ID')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "ID",
+    "Description": "Tax-payer Registration Number (NPWP)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='ID')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "ID",
+    "Description": "Taxable Entrepreneur Confirmation Number (NPPKP)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='IE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "IE",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='IL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "IL",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='IL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "IL",
+    "Description": "Withholding Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='IL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "IL",
+    "Description": "Company Legal ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "IN",
+    "Description": "Excise Control Code Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='10',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "10",
+    "Context": "IN",
+    "Description": "Central Excise Division"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='11',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "11",
+    "Context": "IN",
+    "Description": "Corporate Identity Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='12',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "12",
+    "Context": "IN",
+    "Description": "GST Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "IN",
+    "Description": "Service Tax Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "IN",
+    "Description": "Central Sales Tax Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "IN",
+    "Description": "Local Sales Tax Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "IN",
+    "Description": "Tax Deduction and Collection Account Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='6',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "6",
+    "Context": "IN",
+    "Description": "Taxpayer Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='7',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "7",
+    "Context": "IN",
+    "Description": "Permanent Account Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='8',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "8",
+    "Context": "IN",
+    "Description": "Premises Code Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='9',Context='IN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "9",
+    "Context": "IN",
+    "Description": "Central Excise Range"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='IS')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "IS",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='IT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "IT",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='IT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "IT",
+    "Description": "Fiscal Code"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='IT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "IT",
+    "Description": "IVA Code"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='IT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "IT",
+    "Description": "SIA code"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='JE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "JE",
+    "Description": "GST Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='KE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "KE",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='KR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "KR",
+    "Description": "Representative's ID number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='KR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "KR",
+    "Description": "Business partner's VAT number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='KZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "KZ",
+    "Description": "Tax Registration Number (RNN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='KZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "KZ",
+    "Description": "VAT Registration Certificate Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='KZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "KZ",
+    "Description": "Business Identification Number (BIN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='LB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "LB",
+    "Description": "Tax Identification Number (TIN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='LI')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "LI",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='LK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "LK",
+    "Description": "Permanent Account Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='LK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "LK",
+    "Description": "Taxpayer Identification number (TIN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='LK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "LK",
+    "Description": "Nation Building Tax (NBT)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='LK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "LK",
+    "Description": "Service Tax Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='LK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "LK",
+    "Description": "Tax Deduction and Collection Account Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='LT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "LT",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='LT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "LT",
+    "Description": "Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='LU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "LU",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='LV')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "LV",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='LV')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "LV",
+    "Description": "Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MA",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='MA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "MA",
+    "Description": "RC Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='MA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "MA",
+    "Description": "Patente"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MC')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MC",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MD')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MD",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='ME')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "ME",
+    "Description": "PDV Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='ME')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "ME",
+    "Description": "PIB Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MK",
+    "Description": "Personal Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MT",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MU",
+    "Description": "Tax Account Number (TAN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MX')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MX",
+    "Description": "RFC Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='MX')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "MX",
+    "Description": "VAT Liability"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='MX')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "MX",
+    "Description": "CURP Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='MY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "MY",
+    "Description": "GST Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='NG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "NG",
+    "Description": "Tax Identification Number (TIN)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='NG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "NG",
+    "Description": "RC Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='NI')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "NI",
+    "Description": "Tax Number RUC"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='NI')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "NI",
+    "Description": "Employer Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='NL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "NL",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='NL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "NL",
+    "Description": "BECON Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='NL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "NL",
+    "Description": "Chamber of commerce number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='NL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "NL",
+    "Description": "EORI number(Economic Operators Registration and Identification nummer)"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='NL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "NL",
+    "Description": "Fiscal Unit Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='6',Context='NL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "6",
+    "Context": "NL",
+    "Description": "Location Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='NO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "NO",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='NZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "NZ",
+    "Description": "IRD Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='NZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "NZ",
+    "Description": "GST Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PA",
+    "Description": "Tax Number RUC"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PE",
+    "Description": "RUC Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='PE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "PE",
+    "Description": "National Identification Document"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='PE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "PE",
+    "Description": "Passport"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='PE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "PE",
+    "Description": "Fiscal ID for Individuals"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='PE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "PE",
+    "Description": "Foreigner ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='6',Context='PE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "6",
+    "Context": "PE",
+    "Description": "Other Type of Documents"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PF')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PF",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PG",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PH')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PH",
+    "Description": "Taxpayer Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PK",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PL",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='PL')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "PL",
+    "Description": "NIP Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PS')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PS",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PT",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='PT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "PT",
+    "Description": "Foreign VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='PY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "PY",
+    "Description": "Tax Number RUC"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='RO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "RO",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='RO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "RO",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='RS')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "RS",
+    "Description": "PIB Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='RU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "RU",
+    "Description": "Tax Number INN"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='RU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "RU",
+    "Description": "Tax Number OKPO"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='RU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "RU",
+    "Description": "Tax Number KPP"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='RU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "RU",
+    "Description": "Tax Number OFK"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='SB')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "SB",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='SE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "SE",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='SE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "SE",
+    "Description": "Organization Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='SG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "SG",
+    "Description": "Goods and Services Tax Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='SG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "SG",
+    "Description": "NRIC Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='SG')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "SG",
+    "Description": "Business Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='SI')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "SI",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='SI')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "SI",
+    "Description": "Company Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='SK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "SK",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='SK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "SK",
+    "Description": "Tax Number DIC"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='SK')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "SK",
+    "Description": "Tax Number ICO"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='SM')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "SM",
+    "Description": "Business Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='SV')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "SV",
+    "Description": "NIT Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TD')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TD",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TH')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TH",
+    "Description": "Personal ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='TH')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "TH",
+    "Description": "Registered Tax ID"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='TH')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "TH",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TN",
+    "Description": "Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='TN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "TN",
+    "Description": "Identity Card"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TO')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TO",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TR",
+    "Description": "Tax Office"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='TR')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "TR",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TT')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TT",
+    "Description": "BIR - Board of Inland Revenue"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TW')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TW",
+    "Description": "GUI Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='TW')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "TW",
+    "Description": "Tax Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='TZ')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "TZ",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='UA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "UA",
+    "Description": "Tax Payer Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='UA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "UA",
+    "Description": "Identification code of the payer according to USRE"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='UA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "UA",
+    "Description": "Identification number of the payer according to SRNP"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='UA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "UA",
+    "Description": "Registration number of the payer for joint venture"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='US')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "US",
+    "Description": "Social Security Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='US')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "US",
+    "Description": "Employer Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='3',Context='US')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "3",
+    "Context": "US",
+    "Description": "State Business License Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='4',Context='US')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "4",
+    "Context": "US",
+    "Description": "State Sales and Use Tax Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='5',Context='US')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "5",
+    "Context": "US",
+    "Description": "Payer Name Control"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='UY')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "UY",
+    "Description": "Tax Number RUC"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='VE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "VE",
+    "Description": "RIF Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='VE')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "VE",
+    "Description": "NIT Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='VN')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "VN",
+    "Description": "Tax Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='VU')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "VU",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='WS')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "WS",
+    "Description": "Tax Identification Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='1',Context='ZA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "1",
+    "Context": "ZA",
+    "Description": "VAT Registration Number"
+  },
+  {
+    "__metadata": {
+      "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/IndividualCustomerTaxNumberTaxTypeCodeCollection(Code='2',Context='ZA')",
+      "type": "c4codata.ContextualCodeList"
+    },
+    "Code": "2",
+    "Context": "ZA",
+    "Description": "Income Tax Registration No"
+  }
+]

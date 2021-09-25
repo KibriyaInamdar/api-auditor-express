@@ -1,10 +1,12 @@
 export class ApiSpecification {
   public filePath: string;
   public content: any;
-  public namespaces: string[] = [];
+  public entities: string[] = [];
 
   public invalidEntities :string[] = [];
   public validEntities :string[] = [];
+
+  public entityData: EntityData[] = [];
 
   // public entityContent: EntityContent[] = [];
 
@@ -15,12 +17,12 @@ export class ApiSpecification {
   constructor(filePath: string) {
     this.filePath = filePath;
   }
-
+  
   public load = async (file: string): Promise<void> => {
     // console.log(JSON.stringify(file));
     this.content = JSON.parse(JSON.stringify(file)) as ApiSpecificationContent;
     const definitions = this.content['definitions'];
-    this.namespaces = Object.keys(definitions);
+    this.entities = Object.keys(definitions);
   };
 
 }
@@ -32,15 +34,27 @@ type ApiSpecificationContent = {
 
 export type ApiSpecificationEntityContent = {
   d: {
-    results: EntityResponse[]
+    results: ApiResponse[]
   }
 }
 
-export type EntityResponse = {
+export type ApiResponse = {
   result: {
   }
 }
 
-export type EntityValue = Record<string, unknown>;
+
 
 export type EntityContent = Record<string, EntityValue[]>;
+
+export type EntityData = Record<string, EntityResponse[] >;
+
+export type EntityValue = Record<string, unknown>;
+
+export type DeferredEntity = Record<string, EntityValue[]>
+
+export type EntityResponse = {
+  entityValues: EntityValue[],
+  deferredEntityNames: string[],
+  deferredEntities?: EntityData[]
+}

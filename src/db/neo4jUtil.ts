@@ -21,8 +21,16 @@ export class Neo4jEntity {
     }
   
   read(cypher: string, params: Record<string, any>, database?: string): Result {
-  const session = this.getReadSession(database);
-  return session.run(cypher, params);
+    const session = this.getReadSession(database);
+    const result = session.run(cypher, params);
+
+    result.then(() => {
+      session.close();
+    }).finally(()=>{
+      this.driver.close();
+    });
+
+    return result;
   }
 
   getWriteSession(database?: string){

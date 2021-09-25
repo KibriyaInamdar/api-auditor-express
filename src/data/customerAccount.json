@@ -1,0 +1,176 @@
+{
+    "d": {
+      "results": {
+        "__metadata": {
+          "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')",
+          "type": "c4codata.CorporateAccount",
+          "etag": "W/\"datetimeoffset'2020-04-14T05%3A36%3A31.8548170Z'\""
+        },
+        "ObjectID": "00163E038C2E1EE299C1BB0BE9398F9B",
+        "AccountID": "1001",
+        "UUID": "00163E03-8C2E-1EE2-99C1-BB0BE9398F9B",
+        "ExternalID": "",
+        "ExternalSystem": "",
+        "RoleCode": "CRM000",
+        "RoleCodeText": "Customer",
+        "LifeCycleStatusCode": "4",
+        "LifeCycleStatusCodeText": "Obsolete",
+        "DUNSID": "",
+        "LegalFormCode": "",
+        "LegalFormCodeText": "",
+        "CustomerABCClassificationCode": "B",
+        "CustomerABCClassificationCodeText": "B-Account",
+        "NielsenRegionCode": "",
+        "NielsenRegionCodeText": "",
+        "IndustrialSectorCode": "44",
+        "IndustrialSectorCodeText": "Retail trade",
+        "ContactPermissionCode": "",
+        "ContactPermissionCodeText": "",
+        "BusinessPartnerFormattedName": "Porter LLC",
+        "Name": "Porter LLC",
+        "AdditionalName": "",
+        "AdditionalName2": "",
+        "AdditionalName3": "",
+        "CurrentDefaultAddressUUID": "00163E03-8C2E-1EE2-99C1-C394370BAFA0",
+        "FormattedPostalAddressDescription": "5 Centerstage / St. Paul MN 55144 / US",
+        "CountryCode": "US",
+        "CountryCodeText": "United States",
+        "StateCode": "MN",
+        "StateCodeText": "Minnesota",
+        "CareOfName": "",
+        "AddressLine1": "1",
+        "AddressLine2": "",
+        "HouseNumber": "5",
+        "AdditionalHouseNumber": "",
+        "Street": "Centerstage",
+        "AddressLine4": "2",
+        "AddressLine5": "",
+        "District": "",
+        "City": "St. Paul",
+        "DifferentCity": "",
+        "StreetPostalCode": "55144",
+        "County": "",
+        "CompanyPostalCode": "",
+        "POBoxIndicator": false,
+        "POBox": "456765",
+        "POBoxPostalCode": "",
+        "POBoxDeviatingCountryCode": "",
+        "POBoxDeviatingCountryCodeText": "",
+        "POBoxDeviatingRegionCode": "",
+        "POBoxDeviatingRegionCodeText": "",
+        "POBoxDeviatingCity": "",
+        "TimeZoneCode": "CST",
+        "TimeZoneCodeText": "(UTC-06:00) Central Time (Dallas, Manitoba)",
+        "Building": "",
+        "Floor": "",
+        "Room": "",
+        "Phone": "+1 (651) 733-2220",
+        "NormalisedPhone": "+16517332220",
+        "Mobile": "",
+        "NormalisedMobile": "",
+        "Fax": "+1 (651) 733-1111",
+        "Email": "",
+        "WebSite": "",
+        "LanguageCode": "EN",
+        "LanguageCodeText": "English",
+        "BestReachedByCode": "",
+        "BestReachedByCodeText": "",
+        "OrderBlockingReasonCode": "",
+        "OrderBlockingReasonCodeText": "",
+        "DeliveryBlockingReasonCode": "",
+        "DeliveryBlockingReasonCodeText": "",
+        "BillingBlockingReasonCode": "",
+        "BillingBlockingReasonCodeText": "",
+        "SalesSupportBlockingIndicator": false,
+        "LegalCompetenceIndicator": true,
+        "RecommendedVisitingFrequency": "",
+        "VisitDuration": "",
+        "LastVisitingDate": null,
+        "NextVisitingDate": null,
+        "LatestRecommendedVisitingDate": null,
+        "OwnerID": "",
+        "OwnerUUID": null,
+        "ParentAccountID": "",
+        "CreationOn": "/Date(1359022159693)/",
+        "CreatedBy": "Eddie Smoke",
+        "CreatedByIdentityUUID": "00163E03-A070-1EE2-88BA-39BD20F290B5",
+        "ChangedOn": "/Date(1586362263091)/",
+        "ChangedBy": "Robert Mark",
+        "ChangedByIdentityUUID": "00163E0C-84E2-1ED7-80DF-DF0660BB2577",
+        "EntityLastChangedOn": "/Date(1586362263091)/",
+        "ETag": "/Date(1586842591854)/",
+        "mul1": "101,111",
+        "CorporateAccountAddress": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountAddress"
+          }
+        },
+        "CorporateAccountAttachmentFolder": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountAttachmentFolder"
+          }
+        },
+        "CorporateAccountHasContactPerson": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountHasContactPerson"
+          }
+        },
+        "CorporateAccountIdentification": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountIdentification"
+          }
+        },
+        "CorporateAccountInternationalVersion": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountInternationalVersion"
+          }
+        },
+        "CorporateAccountSalesData": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountSalesData"
+          }
+        },
+        "CorporateAccountSkills": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountSkills"
+          }
+        },
+        "CorporateAccountTaxNumber": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountTaxNumber"
+          }
+        },
+        "CorporateAccountTeam": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountTeam"
+          }
+        },
+        "CorporateAccountTextCollection": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountTextCollection"
+          }
+        },
+        "CorporateAccountVisitingHours": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountVisitingHours"
+          }
+        },
+        "CorporateAccountVisitingInformationDetails": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/CorporateAccountVisitingInformationDetails"
+          }
+        },
+        "OwnerEmployeeBasicData": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/OwnerEmployeeBasicData"
+          }
+        },
+        "ParentAccount": {
+          "__deferred": {
+            "uri": "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/CorporateAccountCollection('00163E038C2E1EE299C1BB0BE9398F9B')/ParentAccount"
+          }
+        }
+      }
+    }
+  }
+  

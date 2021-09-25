@@ -1,5 +1,5 @@
 
-import { Integer } from "neo4j-driver";
+import { Integer, QueryResult } from "neo4j-driver";
 import { Neo4jEntity } from "./neo4jUtil";
 
 
@@ -14,5 +14,13 @@ export async function getNodeCountFromDb(database?: string): Promise<Integer> {
 export async function executeQuery(query: string){
   const neo4jUtils = new Neo4jEntity();
   const result = await neo4jUtils.write(query, {});
+
+}
+
+
+export async function readQuery(query: string): Promise<QueryResult>{
+  const neo4jUtils = new Neo4jEntity();
+  const result = await neo4jUtils.read(query, {});
+  return result;
 
 }

@@ -10,5 +10,5 @@ export const QUERY_ENTITY_RELATIONSHIP = 'Generate';
 export const ENTITY_ENTITYVALUE_RELATIONSHIP = 'Has';
 export const ENTITY_DEFERRED_ENTITY_RELATIONSHIP = 'Deferred';
 
-export const BASE_URL = "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi/"
+export const BASE_URL = "https://sandbox.api.sap.com/sap/c4c/odata/v1/c4codataapi"
 

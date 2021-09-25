@@ -9,6 +9,7 @@ import { randomString } from "../db/neo4jUtil";
 import { error } from "neo4j-driver";
 import  crypto  from "crypto";
 import lodash from "lodash";
+import path from "path";
 
 axiosRetry(axios, {
     retries: 3,
@@ -19,6 +20,7 @@ axiosRetry(axios, {
 
 export const readFileToCsn = async (filePath: string) => {
     const file = await fsPromise.readFile(filePath, 'utf8');
+    console.log(filePath);
     const csnFile= JSON.parse(await generateCSN(file, false, true));
     return csnFile;
 }
@@ -33,12 +35,12 @@ export const readFileToJson = async (file: string) => {
 }
 
 export function  getUrl(req: any, entity: string, params: string): string  {
-  const url = `${BASE_URL}${entity}${
+  const basePath = path.join(BASE_URL, entity);
+  const url = `${basePath}${
     params ? `?${params}` : ''
   }`;
   return url;
 }
-
 
 export async function fetchDataFromUrlUsingAxios(
     url: string

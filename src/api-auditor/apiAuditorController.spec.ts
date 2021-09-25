@@ -6,7 +6,7 @@ describe('API Auditor Controller', () => {
 
         const filepath = "./src/data/customer.edmx" ;
         // await apiAuditorController_copy(filepath);
-        await apiAuditorController(filepath);
+        // await apiAuditorController(filepath);
 
     });    
     

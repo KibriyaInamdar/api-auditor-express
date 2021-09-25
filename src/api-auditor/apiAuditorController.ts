@@ -2,7 +2,7 @@
 //2. 
 
 import { EntityNode, fetchDataFromUrlUsingAxios, getEntityNode, getUrl, readFileToCsn, saveEntityNodeToDb, saveEntityValueNodeToDb, saveQueryNodeToDb } from "./apiAuditorService";
-import { ApiSpecification, ApiSpecificationEntityContent, EntityContent, EntityResponse,  EntityValue } from "./apiSpecificationEntity";
+import { ApiSpecification, ApiSpecificationEntityContent, EntityContent, ApiResponse,  EntityValue } from "./apiSpecificationEntity";
 import lodash from "lodash";
 
 export const apiAuditorController = async (filePath: string) => {
@@ -52,7 +52,7 @@ export const apiAuditorController = async (filePath: string) => {
         }
     }); */
     
-    const entry = apiSpecification.namespaces[1];
+    const entry = apiSpecification.entities[1];
     const entity = entry.split('.')[1];
 
     const url = getUrl('', entity, '$top=1');
@@ -66,16 +66,20 @@ export const apiAuditorController = async (filePath: string) => {
      
 }
 
-export const extractEntityResponse = (responseData: string): EntityResponse[] => {
+export const extractEntityResponse = (responseData: string): ApiResponse[] => {
+    console.log('array');
     const entityContent = JSON.parse(JSON.stringify(responseData)) as ApiSpecificationEntityContent;
     const result = entityContent['d']['results'];
 
     
     if(!lodash.isArray(result)){
-        const entityResponses: EntityResponse [] = [];
+
+        console.log('not array');
+        const entityResponses: ApiResponse [] = [];
         entityResponses.push(result);
         return entityResponses;
     }
+
 
     return result;
 }
@@ -90,7 +94,7 @@ const processEntity = async (
     const entityContent: EntityContent = {};
     const validEntities: string[] = [];
     const invalidEntities: string[] = [];
-    let entityResponse: EntityResponse[] = [] ;
+    let entityResponse: ApiResponse[] = [] ;
 
     try {
         const response = await fetchDataFromUrlUsingAxios(url);
@@ -101,19 +105,19 @@ const processEntity = async (
         // console.log(`Could not fetch metadata for url: ${url} \n error: ${error}`);
     }
 
+    //store query node in a db
+    const queryNodeId = await saveQueryNodeToDb(url);
     if(entityResponse.length === 0){
         invalidEntities.push(entityName);
-         //store query node in a db
-         const queryNodeId = await saveQueryNodeToDb(url);
+     
 
-         const entityNode = getEntityNode(queryNodeId, entityName, "", deferredFlag, parentEntityId);
+        const entityNode = getEntityNode(queryNodeId, entityName, "", deferredFlag, parentEntityId);
  
          // save entity node
-         const  entityNodeId = await saveEntityNodeToDb( entityNode );
+        await saveEntityNodeToDb( entityNode );
     }else{
         validEntities.push(entityName);
-        //store query node in a db
-        const queryNodeId = await saveQueryNodeToDb(url);
+
         const entityNode = getEntityNode(queryNodeId, entityName, 'ed',  deferredFlag, parentEntityId);
 
         if(!lodash.isArray(entityResponse)){
@@ -136,7 +140,7 @@ const processEntity = async (
 
 }
 
-const processEntityResponse = async (entityResponse: EntityResponse[], entityNode: EntityNode): Promise<Record<string, unknown>[]>=> {
+const processEntityResponse = async (entityResponse: ApiResponse[], entityNode: EntityNode): Promise<Record<string, unknown>[]>=> {
     
     const entityTypes : EntityValue [] = [];
     entityResponse.forEach(async (res) => {
@@ -160,7 +164,7 @@ const processEntityResponse = async (entityResponse: EntityResponse[], entityNod
                     if(!entityNode.deferredFlag){
                         let entityContent: EntityContent = {};
                         //deferred entities
-                        const deferredEntityContent = JSON.parse(JSON.stringify(value)) as deferredEntities;
+                        const deferredEntityContent = JSON.parse(JSON.stringify(value)) as DeferredEntities;
                         const url = deferredEntityContent['__deferred']['uri'];
                           
                         try {
@@ -190,7 +194,7 @@ type EntityResponseObject = {
     invalidEntities: string[];
 }
 
-export type deferredEntities = {
+export type DeferredEntities = {
     __deferred: {
       uri: string;
     }

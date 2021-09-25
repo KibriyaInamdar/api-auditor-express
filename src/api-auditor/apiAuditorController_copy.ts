@@ -1,7 +1,7 @@
 import lodash from "lodash";
 import { extractEntityResponse } from "./apiAuditorController";
 import { EntityNode, fetchDataFromUrlUsingAxios, getEntityNode, getUrl, readFileToCsn, saveEntityNodeToDb, saveEntityValueNodeToDb, saveQueryNodeToDb } from "./apiAuditorService";
-import { ApiSpecification, EntityResponse } from "./apiSpecificationEntity";
+import { ApiSpecification, ApiResponse } from "./apiSpecificationEntity";
 
 
 export const apiAuditorController_copy = async (filePath: string) => {
@@ -34,7 +34,7 @@ export const apiAuditorController_copy = async (filePath: string) => {
         }
     }); */
 
-    const entry = apiSpecification.namespaces[1];
+    const entry = apiSpecification.entities[1];
     const entityName = entry.split('.')[1];
 
     // const entityName = 'ContactInternationalVersionCollection';
@@ -53,7 +53,7 @@ const processEntity = async (
 
     const validEntities: string[] = [];
     const invalidEntities: string[] = [];
-    let entityResponse: EntityResponse[] = [] ;
+    let entityResponse: ApiResponse[] = [] ;
 
     try {
         const response = await fetchDataFromUrlUsingAxios(url);
