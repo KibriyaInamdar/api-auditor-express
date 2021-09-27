@@ -1,8 +1,7 @@
-import lodash, { result } from "lodash";
 import { readFileToCsn } from "../api-auditor/apiAuditorService";
-import { ApiSpecification, EntityData } from "../api-auditor/apiSpecificationEntity";
-import { fetchData, getQuery, QueryParam, saveData } from "../queryProcessing/queryProcessingController";
-import { BasicQueries } from "./apiAuditorQueries";
+import { ApiSpecification, EntityData, EntityResponse, QueryParam } from "../api-auditor/apiSpecificationEntity";
+import { fetchData, extractDeferredEntityNames, getQuery, saveData1 } from "../queryProcessing/queryProcessingController";
+import { BasicQueries, EXPAND_NAVIGATION_QUERY, METADATA, MetadataQuery, MinimumConformanceLevels, Minimum_METADATA_QUERY } from "./apiAuditorQueries";
 
 
 export async function apiAuditor( filePathToModel: string){
@@ -18,54 +17,98 @@ export async function apiAuditor( filePathToModel: string){
     // step 3: prepareData
     // queryProcessing(apiSpecification);
 
-
-    // step 3: for each entity, perform query processing
     const api = queryProcessing(apiSpecification.entities);
 
     await Promise.all([api]);
-    
-    // console.log(api);
-    // lodash.forEach(api, async (value,key) => {
-    //     console.log(key);
-    //     console.log(value);
-    // })
 
+    console.log(api);
     (await api).map(entry => {
-        console.log(entry);
+        Object.entries(entry).map(([key, value]) => {
+            console.log(key);
+            const entityName = key;
+
+            value.map(v => {
+                // const entityValues = v.entityValues;
+                // console.log(entityValues);
+                // const deferredEntities = v.deferredEntityNames;
+                // console.log(deferredEntities);
+
+                const deferredEntities = v.deferredEntities;
+                console.log(deferredEntities);
+            });
        
-    })
-
-
-   console.log(await api);
+        });
+    });   
 }
 
 
 async function queryProcessing(entities: string[]): Promise<EntityData[]>{
 
+    
     let first = true;
 
     const entityData: EntityData [] = [];
 
-    // entities.forEach(async (entity) => {
-        const entity = 'ContactCollection';
+    entities = ['ContactCollection', 'BusinessUserCollection'];
+    // entities = ['ContactCollection'];
+    await Promise.all(entities.map(async (entity) => {
         // if(!first){
 
-            const data = await prepareData(entity);
-
+            //step 1: prepare Data
+            const data = await prepareMetadata(entity);
             await Promise.all([data]);
             entityData.push(data);
-          
+
+            //step 2: checkMinimumConformanceLevel
+
             // checkMinimumConformanceLevel(entity);
             //checkIntermediateConformanceLevel();
             //checkAdvancedConformanceLevel();
         // }
-    //    first = false;
-
-
-    // });
+        first = false;
+    }));
+    
     return entityData;
 }
+async function prepareMetadata(entity: string){
 
+    const deferredEntityNames = await getDeferredEntityNames(entity);
+
+    const queryParam: QueryParam = {
+        query :  EXPAND_NAVIGATION_QUERY,
+        entity: entity,
+        value: "",
+        navigationProperty: deferredEntityNames.toString()
+    }
+
+    const url = getQuery(queryParam);
+    console.log(url);
+    const response = await fetchData(url);
+
+    const result = await saveData1(await response, false);
+    const entityData: EntityData = {};
+    entityData[entity] = result;
+
+    return entityData;
+}
+async function getDeferredEntityNames(entity: string): Promise<string[]>{
+
+    const query = Minimum_METADATA_QUERY;
+    const queryParam: QueryParam = {
+        query :  query,
+        entity: entity,
+        value: "",
+        navigationProperty: ""
+    }
+    const url = getQuery(queryParam);
+ 
+    const response = await fetchData(url);
+
+    await  Promise.all(response);
+    const deferredEntityNames = extractDeferredEntityNames(await response);
+    return deferredEntityNames;
+
+}
 export async function prepareData(entity: string): Promise<EntityData>{
     /** for each entity, execute  http://host/service.svc/Entity?$top=5
             query1: baseurl/EntitySet?$top=5
@@ -84,10 +127,10 @@ export async function prepareData(entity: string): Promise<EntityData>{
         const url = getQuery(queryParam);
         const response = await fetchData(url)
         
-        await saveData(response, false)
-        .then(result => {
-            entityData[entity] = result;
-        });
+        // await saveData(response, false)
+        // .then(result => {
+        //     entityData[entity] = result;
+        // });
       
     }));
     return entityData;
@@ -107,31 +150,7 @@ export async function checkMinimumConformanceLevel(): Promise<EntityData>{
     console.log('checkMinimumConformanceLevel');
     
     const entityData: EntityData = {};
-  /*   const entityData: EntityData = {};
-    const queries = Object.values(MinimumConformanceLevels);
-    const entityContent: EntityContent = {};
-    let first = true;
-
-    await Promise.all(queries.map( async query => {
-        if(first){
-            first = false;
-            // const url = getUrl('', entity, '$top=1');
  
-            const queryParam: QueryParam = {
-                query :  query,
-                entity: entity,
-                value: "",
-                navigationProperty: ""
-            }
-            const url = getQuery(queryParam);
-            const response = await fetchData(url)
-           
-            const entityResponse = saveData( response);
-            entityData[entity] = response;
-         
-
-        };
-    })); */
     return entityData;
 }
 

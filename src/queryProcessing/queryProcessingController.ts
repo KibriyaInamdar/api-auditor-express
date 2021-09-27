@@ -1,17 +1,15 @@
-import lodash from "lodash";
+import lodash, { first } from "lodash";
 import { DeferredEntities } from "../api-auditor/apiAuditorController";
 import { fetchDataFromUrlUsingAxios } from "../api-auditor/apiAuditorService";
-import { ApiResponse, ApiSpecificationEntityContent, EntityData, EntityResponse, EntityValue } from "../api-auditor/apiSpecificationEntity";
+import { ApiResponse, ApiSpecificationEntityContent, DeferredEntity, EntityData, EntityResponse, EntityValue, QueryParam } from "../api-auditor/apiSpecificationEntity";
 import { BASE_URL } from "../commonConstants";
 
 
 // use keywords like BASEURL, entity, entityvalue and deferred value
-
-
 const baseUrl = /BASEURL/gi;
 const entity = /ENTITY?/gi; 
 const value = /PROPERTY/gi; 
-const NAVIGATION_PROPERTY = /NAVIGATION_PROPERTY/gi; 
+const navigationProperty = /NAVIGATION/gi; 
 
 /* 
 const q = BASEURL/entityName/<Entity>
@@ -28,43 +26,31 @@ const q = BASEURL/entityName/\$filter=<numeric-attribute A> eq <known value of A
 */
 
 
-export const queryProcessingController = (entityName: string, entityValue: string) => {
-
-    // const refinedQuery = getQuery(query, entityName, '00163E038C2E1EE299C1BB0BE93B6F9B');
-    const query = "BASEURL/entityName('entityValue')";
-    const queryParam: QueryParam = {
-        query :  query,
-        entity: entityName,
-        value: entityValue,
-        navigationProperty: ""
-    }
-    const refinedQuery = getQuery(queryParam);
-    console.log(`refinedQuery: ${refinedQuery}`);
-
-}
-
-
 export function getQuery(queryParam: QueryParam): string{
 
     const newQuery = queryParam.query.replace(baseUrl, BASE_URL)
     .replace(entity, queryParam.entity)
     .replace(value, queryParam.value)
-    .replace(NAVIGATION_PROPERTY, queryParam.navigationProperty);
+    .replace(navigationProperty, queryParam.navigationProperty);
   
     return newQuery;
-}
 
-export type QueryParam = {
-    query: string,
-    entity: string,
-    value: string,
-    navigationProperty: string
 }
 
 export const fetchData = async (url: string): Promise<ApiResponse[]> => {
 
     try {
         const response = await fetchDataFromUrlUsingAxios(url);
+        return extractData(response);
+
+    } catch (error) {
+        console.log(`Could not fetch metadata for url: ${url} \n error: ${error}`);
+        throw Error(error);
+    }
+
+}
+export const extractData = (response: string): ApiResponse[] => {
+
         const entityContent = JSON.parse(JSON.stringify(response)) as ApiSpecificationEntityContent;
         const result = entityContent['d']['results'];
         if(!lodash.isArray(result)){
@@ -73,16 +59,27 @@ export const fetchData = async (url: string): Promise<ApiResponse[]> => {
             return entityResponses;
         }
         return result;
-        
-    } catch (error) {
-
-        console.log(`Could not fetch metadata for url: ${url} \n error: ${error}`);
-        throw Error(error);
-    }
 
 }
+export const extractDeferredEntityNames = (response: ApiResponse[]): string[] => {
 
-export const saveData = async (response: ApiResponse[], deferredFlag: boolean) : Promise<EntityResponse[]> => {
+    const deferredEntities: string [] = [];
+
+    response.map(res => {
+        let firstObj = true;
+        Object.entries(res).map(async ([key, value]) => {
+            if(!firstObj){
+                if (lodash.isObject(value) ) {
+                    deferredEntities.push(key);
+                }
+            }
+            firstObj = false;
+        })
+    })
+ 
+    return deferredEntities;
+}
+/* export const saveData = async (response: ApiResponse[], deferredFlag: boolean) : Promise<EntityResponse[]> => {
 
     const entityResponses: EntityResponse[] = [];
     
@@ -95,16 +92,9 @@ export const saveData = async (response: ApiResponse[], deferredFlag: boolean) :
         await Promise.all(Object.entries(res).map(async ([key, value]) => {
             if(!firstObj){
                 if (!lodash.isObject(value) ) {
-                    entityValues.push({
-                        key: value
-                    });
-                }else{
-                    if(!lodash.includes(deferredEntityNames , key)){
-                        deferredEntityNames.push(key);
-                    }
-                    if(!deferredFlag){
-                        allDeferredEntityData.push(await fetchDeferredEntityData(key, value));
-                    }
+                    const entityValue: EntityValue = {};
+                    entityValue[key] = value;
+                    entityValues.push(entityValue);
                 }
             }
             firstObj = false;
@@ -117,7 +107,6 @@ export const saveData = async (response: ApiResponse[], deferredFlag: boolean) :
     }));
     return entityResponses;
 }
-
 export const fetchDeferredEntityData = async (entityName:string, value: Object) : Promise<EntityData> => {
 
     //deferred entities
@@ -135,5 +124,56 @@ export const fetchDeferredEntityData = async (entityName:string, value: Object) 
         console.log(error);
     }
                       
+    return deferredEntityData;             
+}
+ */
+export const saveData1 = (response: ApiResponse[], deferredFlag: boolean) : EntityResponse[] => {
+
+    const entityResponses: EntityResponse[] = [];
+    
+    response.map(  res => {
+        
+        const entityValues : EntityValue [] = [];
+        const allDeferredEntityData: EntityData[] = [];
+        let firstObj = true;
+        Object.entries(res).map( ([key, value]) => {
+            if(!firstObj){
+                if(!deferredFlag && lodash.isObject(value)){
+                    const deferredResult = saveDeferredEntityData(key, value);
+                    allDeferredEntityData.push(deferredResult);
+                }else{
+                    const entityValue: EntityValue = {};
+                    entityValue[key] = value;
+                    entityValues.push(entityValue);
+                }
+            }
+            firstObj = false;
+        });
+        entityResponses.push({
+            entityValues: entityValues,
+            deferredEntities: allDeferredEntityData
+        });
+    });
+    return entityResponses;
+}
+
+
+export const saveDeferredEntityData =  (entityName:string, value: Object) : EntityData => {
+
+    //deferred entities
+    const deferredEntityData: EntityData = {};
+
+    if(lodash.isEmpty(value)){
+        deferredEntityData[entityName] = [];
+        return deferredEntityData;
+    }
+
+    // const response = extractData(value.toString());
+
+    const entityResponses: ApiResponse [] = [];
+    entityResponses.push(value);
+    const result =  saveData1(entityResponses, true);
+    deferredEntityData[entityName] = result;
+       
     return deferredEntityData;             
 }

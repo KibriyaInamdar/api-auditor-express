@@ -1,17 +1,24 @@
 const BASIC_QUERY = "BASEURL/entity?$top=5";
 const Minimum_EXPAND_NAVIGATION_QUERY = "BASEURL/ENTITY?$top=5&$expand=NAVIGATION_PROPERTY";
-const Minimum_METADATA_QUERY = "BASEURL/entity?$METADATA";
+
+export const Minimum_METADATA_QUERY = "BASEURL/ENTITY?$metadata&$top=1";
+export const EXPAND_NAVIGATION_QUERY = "BASEURL/ENTITY?&$top=5&$expand=NAVIGATION";
+
+export const METADATA = 'metadata';
 
 const NAVIGATION_PROPERTY = "NAVIGATION_PROPERTY";
 
 export enum MinimumConformanceLevels{
-    BASIC_QUERY = "BASEURL/entity?$top=5",
-    METADATA_QUERY = "BASEURL/ENTITY?$metadata",
-    EXPAND_NAVIGATION_QUERY = "BASEURL/ENTITY?$top=5&$expand=NAVIGATION_PROPERTY",
+    METADATA_QUERY = "BASEURL/ENTITY?$metadata&$top=1",
+    EXPAND_NAVIGATION_QUERY = "BASEURL/ENTITY?&$top=5&$expand=NAVIGATION",
 }
 
 export enum BasicQueries{
-    BASIC_QUERY = "BASEURL/entity?$top=5",
+    // BASIC_QUERY = "BASEURL/entity?$top=5",
+    METADATA_QUERY = "BASEURL/ENTITY?$metadata&$top=5",
+}
+export enum MetadataQuery{
+    METADATA_QUERY = "BASEURL/ENTITY?$metadata&$top=1",
 }
 
 /**

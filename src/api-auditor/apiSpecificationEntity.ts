@@ -39,8 +39,7 @@ export type ApiSpecificationEntityContent = {
 }
 
 export type ApiResponse = {
-  result: {
-  }
+ 
 }
 
 
@@ -55,6 +54,13 @@ export type DeferredEntity = Record<string, EntityValue[]>
 
 export type EntityResponse = {
   entityValues: EntityValue[],
-  deferredEntityNames: string[],
-  deferredEntities?: EntityData[]
+  deferredEntityNames?: string[],
+  deferredEntities: EntityData[]
+}
+
+export type QueryParam = {
+  query: string,
+  entity: string,
+  value: string,
+  navigationProperty: string
 }
