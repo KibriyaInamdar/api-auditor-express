@@ -9,22 +9,8 @@ import { BASE_URL } from "../commonConstants";
 const baseUrl = /BASEURL/gi;
 const entity = /ENTITY?/gi; 
 const value = /PROPERTY/gi; 
+const id = /ID/gi; 
 const navigationProperty = /NAVIGATION/gi; 
-
-/* 
-const q = BASEURL/entityName/<Entity>
-const q = BASEURL/entityName/?$top=5
-const q = BASEURL/entityName/?$top=5&$skip=1
-const q = BASEURL/entityName('<Id>')
-const q = BASEURL/entityName/<Id>
-const q = BASEURL/entityName('<Id>')/<property>
-const q = BASEURL/entityName('<Id>')/<navigationProperty>
-const q = BASEURL/entityName('<Id>')\$expand=<navigationProperty>
-const q = BASEURL/entityName('<Id>')\$select=<property>
-const q = BASEURL/entityName/\$filter=<numeric-attribute A> eq <known value of A>
-
-*/
-
 
 export function getQuery(queryParam: QueryParam): string{
 

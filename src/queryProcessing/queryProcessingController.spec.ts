@@ -1,4 +1,4 @@
-import { queryProcessingController } from "../queryProcessing/queryProcessingController";
+
 describe('Query Processing Controller', () => {
 
     test("Refine query",  () => {

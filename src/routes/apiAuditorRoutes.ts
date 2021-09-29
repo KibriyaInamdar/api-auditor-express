@@ -1,7 +1,7 @@
 import { readFileToCsn } from "../api-auditor/apiAuditorService";
 import { ApiSpecification, EntityData, EntityResponse, QueryParam } from "../api-auditor/apiSpecificationEntity";
 import { fetchData, extractDeferredEntityNames, getQuery, saveData1 } from "../queryProcessing/queryProcessingController";
-import { BasicQueries, EXPAND_NAVIGATION_QUERY, METADATA, MetadataQuery, MinimumConformanceLevels, Minimum_METADATA_QUERY } from "./apiAuditorQueries";
+import { BasicQueries, EXPAND_NAVIGATION_QUERY, MinimumConformanceLevels, Minimum_METADATA_QUERY } from "./apiAuditorQueries";
 
 
 export async function apiAuditor( filePathToModel: string){
@@ -22,6 +22,7 @@ export async function apiAuditor( filePathToModel: string){
     await Promise.all([api]);
 
     console.log(api);
+    apiSpecification.entityData = await api;
     (await api).map(entry => {
         Object.entries(entry).map(([key, value]) => {
             console.log(key);
@@ -137,7 +138,7 @@ export async function prepareData(entity: string): Promise<EntityData>{
 }
 
 
-export async function checkMinimumConformanceLevel(): Promise<EntityData>{
+export async function checkMinimumConformanceLevel(entity:string, entityResponse: EntityResponse[]): Promise<EntityData>{
     /** for each entity, execute  http://host/service.svc/Entity?$top=5
             query1: baseurl/EntitySet?$top=5
     */
@@ -150,8 +151,24 @@ export async function checkMinimumConformanceLevel(): Promise<EntityData>{
     console.log('checkMinimumConformanceLevel');
     
     const entityData: EntityData = {};
- 
+    const queries = Object.values(MinimumConformanceLevels);
+
+    await Promise.all(queries.map( async query => {
+        const queryParam: QueryParam = {
+            query :  query,
+            entity: entity,
+            value: "",
+            navigationProperty: ""
+        }
+        const url = getQuery(queryParam);
+        const response = await fetchData(url)
+        
+        // switch(top, skip, select, value, filter )
+     
+      
+    }));
     return entityData;
+
 }
 
 
