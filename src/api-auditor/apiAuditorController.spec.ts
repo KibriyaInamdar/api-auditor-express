@@ -20,9 +20,5 @@ describe('API Auditor Controller', () => {
         console.log('done'); */
     });   
     
-    // test("test array", async () => {
-
-    //     testArray();
-    // });
 
 });

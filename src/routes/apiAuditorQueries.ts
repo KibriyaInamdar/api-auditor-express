@@ -1,6 +1,18 @@
-export const Minimum_METADATA_QUERY = "BASEURL/ENTITY?$metadata&$top=1";
+export const METADATA_QUERY = "BASEURL/ENTITY?$metadata&$top=1";
 export const EXPAND_NAVIGATION_QUERY = "BASEURL/ENTITY?&$top=5&$expand=NAVIGATION";
 
+/* query-template : query-head :- query-template-body 
+
+query-template-head : query-template-id(free-variables, answer-matchers, warn-matchers, answer-schema?) // optional schema
+answer-schema : object structure or columns (schema) ?
+answer-matchers : a composition of conditions (cf. unit test matchers in jest of java hamcrest) ?
+warn-matchers : same format as answer-matchers
+
+query-template-body : ${base-url}/${entity} | ? ...
+
+q(entity-name) :- metadata(entity-name, api-name)
+  
+*/
 /**
     1. $select
     2. $top
@@ -18,24 +30,28 @@ export const EXPAND_NAVIGATION_QUERY = "BASEURL/ENTITY?&$top=5&$expand=NAVIGATIO
     9. /$count segment on navigation and collection properties
     10. $orderby asc and desc on individual properties
  */
+export enum SELECT_QUERY{
+    "select_individual_property()" = "BASEURL/ENTITY?$top=5&$select=PROPERTY",
+    // "BASEURL/ENTITY/$top=5&$select=*",
+    // "BASEURL/ENTITY/$top=5&$select=NAVIGATION&expand=NAVIGATION",
+    // "BASEURL/ENTITY/$top=5&$expand=NAVIGATION($select=PROPERTY)",
 
+    // "BASEURL/ENTITY('ID')?&$select=PROPERTY",
+    // "BASEURL/ENTITY('ID')&$select=*",
+    // "BASEURL/ENTITY('ID')$top=5&$expand=NAVIGATION($select=PROPERTY)",
+    // "BASEURL/ENTITY('ID')$top=5&$select=NAVIGATION&expand=NAVIGATION",
+}
 export enum MinimumConformanceLevels{
-    TOP_QUERY = "BASEURL/ENTITY?$metadata&$top=5",
+    TOP_QUERY = "BASEURL/ENTITY?&$top=5",
     TOP_SKIP_QUERY = "BASEURL/ENTITY?&$top=2&skip=3",
-    SELECT_QUERY = "BASEURL/ENTITY/$top=5&$select=PROPERTY",
-    SELECT_ALL_QUERY = "BASEURL/ENTITY/$top=5&$select=*",
-    SELECT_EXPAND_NAVIGATION_PROPERTY_QUERY = "BASEURL/ENTITY/$top=5&$select=NAVIGATION($select=PROPERTY)",
-    SELECT_EXPAND_NAVIGATION_VALUE_QUERY = "BASEURL/ENTITY/$top=5&$select=NAVIGATION&expand=NAVIGATION",
+   
     // ENTITY_PROPERTY_VALUE_BY_ID_QUERY = "BASEURL/ENTITY/PROPERTY/$value",
 }
 export enum IntermediateConformanceLevels{
     ENTITY_BY_ID_QUERY = "BASEURL/ENTITY('ID')",
     ENTITY_PROPERTY_BY_ID_QUERY = "BASEURL/ENTITY('ID')/PROPERTY",
     ENTITY_PROPERTY_VALUE_BY_ID_QUERY = "BASEURL/ENTITY('ID')/PROPERTY/$value",
-    SELECT_QUERY = "BASEURL/ENTITY('ID')?&$select=PROPERTY",
-    SELECT_ALL_QUERY = "BASEURL/ENTITY('ID')&$select=*",
-    SELECT_EXPAND_NAVIGATION_PROPERTY_QUERY = "BASEURL/ENTITY/$top=5&$select=NAVIGATION($select=PROPERTY)",
-    SELECT_EXPAND_NAVIGATION_VALUE_QUERY = "BASEURL/ENTITY/$top=5&$select=NAVIGATION&expand=NAVIGATION",
+   
 
 }
 /* 

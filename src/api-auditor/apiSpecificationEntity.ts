@@ -1,3 +1,5 @@
+import lodash from "lodash";
+
 export class ApiSpecification {
   public filePath: string;
   public content: any;
@@ -7,12 +9,6 @@ export class ApiSpecification {
   public validEntities :string[] = [];
 
   public entityData: EntityData[] = [];
-
-  // public entityContent: EntityContent[] = [];
-
-  // public entityType = new Map<string, string>();
-  public entityContent: EntityContent | undefined;
-
 
   constructor(filePath: string) {
     this.filePath = filePath;
@@ -24,6 +20,22 @@ export class ApiSpecification {
     const definitions = this.content['definitions'];
     this.entities = Object.keys(definitions);
   };
+
+  public setMetadata = (entityData: EntityData[]) => {
+    this.entityData = entityData;
+  };
+
+  public getMeatadata = (entity: string) : EntityResponse[] => {
+
+    let entityResponse: EntityResponse [] = [];
+    (this.entityData).map(entry => {
+      Object.entries(entry).map(([key, value]) => {
+        if(key === entity)
+          entityResponse = value;
+      })
+    });
+    return entityResponse;
+  }
 
 }
 type ApiSpecificationContent = {
@@ -42,20 +54,14 @@ export type ApiResponse = {
  
 }
 
+// export type EntityData = Record<string, EntityResponse[] >;
 
+export type EntityData = {
+  [key:string]: EntityResponse[];
+}
 
-export type EntityContent = Record<string, EntityValue[]>;
-
-export type EntityData = Record<string, EntityResponse[] >;
-
-export type EntityValue = Record<string, unknown>;
-
-export type DeferredEntity = Record<string, EntityValue[]>
-
-export type EntityResponse = {
-  entityValues: EntityValue[],
-  deferredEntityNames?: string[],
-  deferredEntities: EntityData[]
+export type EntityPropertyData = {
+  [key:string]: unknown;
 }
 
 export type QueryParam = {
@@ -63,4 +69,14 @@ export type QueryParam = {
   entity: string,
   value: string,
   navigationProperty: string
+}
+
+export type EntityProperies = {
+  properties: string[],
+  navigationProperties: string[]
+}
+
+export type EntityResponse = {
+  entityProperties: EntityPropertyData[],
+  entityNavigationProperties: EntityData[]
 }

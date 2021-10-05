@@ -1,8 +1,9 @@
 import { readFileToCsn } from "../api-auditor/apiAuditorService";
-import { ApiSpecification, EntityData, EntityResponse, QueryParam } from "../api-auditor/apiSpecificationEntity";
-import { fetchData, extractDeferredEntityNames, getQuery, saveData1 } from "../queryProcessing/queryProcessingController";
-import { BasicQueries, EXPAND_NAVIGATION_QUERY, MinimumConformanceLevels, Minimum_METADATA_QUERY } from "./apiAuditorQueries";
+import { ApiResponse, ApiSpecification, EntityData, EntityProperies, EntityResponse, QueryParam } from "../api-auditor/apiSpecificationEntity";
+import { fetchData, extractProperties, getQuery, saveData, PROPERTY, NAV_PROPERTY } from "../queryProcessing/queryProcessingController";
+import { EXPAND_NAVIGATION_QUERY, METADATA_QUERY, SELECT_QUERY } from "./apiAuditorQueries";
 
+let apiSpecification : ApiSpecification ;
 
 export async function apiAuditor( filePathToModel: string){
     // step 1: read file to csn 
@@ -10,169 +11,165 @@ export async function apiAuditor( filePathToModel: string){
     await Promise.all([csnFile]);
 
     // step 2: load namespace and entities from csnFile
-    const apiSpecification = new ApiSpecification(filePathToModel);
+    apiSpecification = new ApiSpecification(filePathToModel);
     console.log('loading content');
     await apiSpecification.load(csnFile);
 
-    // step 3: prepareData
-    // queryProcessing(apiSpecification);
+    // step 3: loadMetadata
+    const metadata = await loadMetadata(apiSpecification.entities);
+    apiSpecification.setMetadata(metadata);
 
-    const api = queryProcessing(apiSpecification.entities);
+ 
 
-    await Promise.all([api]);
+   
 
-    console.log(api);
-    apiSpecification.entityData = await api;
-    (await api).map(entry => {
-        Object.entries(entry).map(([key, value]) => {
-            console.log(key);
-            const entityName = key;
-
-            value.map(v => {
-                // const entityValues = v.entityValues;
-                // console.log(entityValues);
-                // const deferredEntities = v.deferredEntityNames;
-                // console.log(deferredEntities);
-
-                const deferredEntities = v.deferredEntities;
-                console.log(deferredEntities);
-            });
-       
-        });
-    });   
+    //evaluate $schemaversion : specify the current version of the metadata.
 }
 
 
-async function queryProcessing(entities: string[]): Promise<EntityData[]>{
-
+async function loadMetadata(entities: string[]): Promise<EntityData[]>{
     
     let first = true;
-
-    const entityData: EntityData [] = [];
-
+    const entityData: EntityData []= [];
     entities = ['ContactCollection', 'BusinessUserCollection'];
     // entities = ['ContactCollection'];
     await Promise.all(entities.map(async (entity) => {
         // if(!first){
 
-            //step 1: prepare Data
-            const data = await prepareMetadata(entity);
-            await Promise.all([data]);
+            //step 1: get Navigation properties
+            const entityProperties = await getEntityProperties(entity);
+            //step 2: fetch metadata 
+            const data = await prepareMetadata(entity, entityProperties.navigationProperties.toString());
             entityData.push(data);
-
-            //step 2: checkMinimumConformanceLevel
-
-            // checkMinimumConformanceLevel(entity);
-            //checkIntermediateConformanceLevel();
-            //checkAdvancedConformanceLevel();
         // }
         first = false;
     }));
     
     return entityData;
 }
-async function prepareMetadata(entity: string){
 
-    const deferredEntityNames = await getDeferredEntityNames(entity);
+async function getEntityProperties(entity: string): Promise<EntityProperies>{
+    const queryParam: QueryParam = {
+        query :  METADATA_QUERY,
+        entity: entity,
+        value: "",
+        navigationProperty: ""
+    }
+    const response = await fetchData(getQuery(queryParam));
+
+    await  Promise.all(response);
+    const entityProperties = extractProperties(await response, entity);
+    return entityProperties;
+
+}
+
+async function prepareMetadata(entity: string, navigationProperties: string): Promise<Record<string, EntityResponse[]>>{
 
     const queryParam: QueryParam = {
         query :  EXPAND_NAVIGATION_QUERY,
         entity: entity,
         value: "",
-        navigationProperty: deferredEntityNames.toString()
+        navigationProperty: navigationProperties
     }
+    const response = await fetchData(getQuery(queryParam));
 
-    const url = getQuery(queryParam);
-    console.log(url);
-    const response = await fetchData(url);
-
-    const result = await saveData1(await response, false);
+    const result = await saveData(await response, false);
     const entityData: EntityData = {};
     entityData[entity] = result;
 
     return entityData;
 }
-async function getDeferredEntityNames(entity: string): Promise<string[]>{
 
-    const query = Minimum_METADATA_QUERY;
-    const queryParam: QueryParam = {
-        query :  query,
-        entity: entity,
-        value: "",
-        navigationProperty: ""
-    }
-    const url = getQuery(queryParam);
- 
-    const response = await fetchData(url);
-
-    await  Promise.all(response);
-    const deferredEntityNames = extractDeferredEntityNames(await response);
-    return deferredEntityNames;
-
-}
-export async function prepareData(entity: string): Promise<EntityData>{
-    /** for each entity, execute  http://host/service.svc/Entity?$top=5
-            query1: baseurl/EntitySet?$top=5
-    */
-    
-    const entityData: EntityData = {};
-    const queries = Object.values(BasicQueries);
-
-    await Promise.all(queries.map( async query => {
-        const queryParam: QueryParam = {
-            query :  query,
-            entity: entity,
-            value: "",
-            navigationProperty: ""
-        }
-        const url = getQuery(queryParam);
-        const response = await fetchData(url)
-        
-        // await saveData(response, false)
-        // .then(result => {
-        //     entityData[entity] = result;
-        // });
-      
-    }));
-    return entityData;
-}
-
-
-export async function checkMinimumConformanceLevel(entity:string, entityResponse: EntityResponse[]): Promise<EntityData>{
-    /** for each entity, execute  http://host/service.svc/Entity?$top=5
-            query1: baseurl/EntitySet?$top=5
-    */
-    //OData 4.0 Minimal Conformance Level
-    /**
-         1. check for navigationProperties $expand
-         2. $metadata
-    */
+function checkMinimumConformanceLevel(entityResponse: EntityResponse[], entityProperties: EntityProperies){
 
     console.log('checkMinimumConformanceLevel');
     
-    const entityData: EntityData = {};
-    const queries = Object.values(MinimumConformanceLevels);
+    const queryTemplates = getAllQueryTemplates();
+    
+    queryTemplates.map(  qTemplate => {
 
-    await Promise.all(queries.map( async query => {
-        const queryParam: QueryParam = {
-            query :  query,
-            entity: entity,
-            value: "",
-            navigationProperty: ""
-        }
-        const url = getQuery(queryParam);
-        const response = await fetchData(url)
-        
-        // switch(top, skip, select, value, filter )
+         getQueriesFromQueryTemplate(qTemplate, entityProperties);
      
-      
-    }));
-    return entityData;
+    });
+    // return entityData;
 
 }
 
 
+export async function getQueriesFromQueryTemplate(qTemplate: string, entityProperties: EntityProperies){
+    const propertyFlag = PROPERTY.test(qTemplate);
+    const NavPropertyFlag = NAV_PROPERTY.test(qTemplate);
 
+    // console.log(` propertyFlag : ${propertyFlag}`);
+    // console.log(` NavPropertyFlag : ${NavPropertyFlag}`);
+
+
+    if(propertyFlag && NavPropertyFlag){
+        console.log (`propertyFlag && NavPropertyFlag`);
+    }else if(propertyFlag){
+        console.log(`propertyFlag`);
+        await getQueryFromQueryTemplateForProperty(qTemplate, '', entityProperties.properties);
+       
+    }else if(NavPropertyFlag){
+        console.log(`NavPropertyFlag`);
+    }else{
+        console.log(`nothing`);
+    }
+
+
+}
+
+async function getQueryFromQueryTemplateForProperty(qTemplate: string, entity: string, listOfProperty: string[]){
+
+    await Promise.all(listOfProperty.map( async p => {
+        const queryParam: QueryParam = {
+            query :  qTemplate,
+            entity: entity,
+            value: p,
+            navigationProperty: ""
+        }
+        const query = getQuery(queryParam);
+        console.log(query);
+   
+        // try {
+        //     const response = 
+        // } catch (error) {
+        //     console.log(error);
+        // }
+        await fetchData(query)
+        .then(response => {
+            console.log('successful');
+        }).catch(error =>{
+            console.log(error);
+        });
+        
+    }));
+    
+
+}
+ async function fetchDataForQuery(query:string): Promise<ApiResponse[]> {
+    console.log(query);
+    const response = await fetchData(query);
+
+    return response;
+ }
+
+
+export function getAllQueryTemplates():string[]{
+
+    // const queries: string[] = [];
+
+    const queries = Object.values(SELECT_QUERY).filter(value => typeof value === 'string') as string[];
+
+    console.log(queries);
+    return queries;
+}
+
+       //step 2: checkMinimumConformanceLevel
+
+            // checkMinimumConformanceLevel(entity);
+            //checkIntermediateConformanceLevel();
+            //checkAdvancedConformanceLevel();
 
 
 

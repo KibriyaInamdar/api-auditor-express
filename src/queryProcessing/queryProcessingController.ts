@@ -1,34 +1,30 @@
-import lodash, { first } from "lodash";
-import { DeferredEntities } from "../api-auditor/apiAuditorController";
+import lodash from "lodash";
 import { fetchDataFromUrlUsingAxios } from "../api-auditor/apiAuditorService";
-import { ApiResponse, ApiSpecificationEntityContent, DeferredEntity, EntityData, EntityResponse, EntityValue, QueryParam } from "../api-auditor/apiSpecificationEntity";
+import { ApiResponse, ApiSpecificationEntityContent, EntityData, EntityProperies, EntityPropertyData, EntityResponse, QueryParam } from "../api-auditor/apiSpecificationEntity";
 import { BASE_URL } from "../commonConstants";
 
 
 // use keywords like BASEURL, entity, entityvalue and deferred value
 const baseUrl = /BASEURL/gi;
 const entity = /ENTITY?/gi; 
-const value = /PROPERTY/gi; 
+export const PROPERTY = /PROPERTY/gi; 
 const id = /ID/gi; 
-const navigationProperty = /NAVIGATION/gi; 
+export const NAV_PROPERTY = /NAVIGATION/gi; 
 
 export function getQuery(queryParam: QueryParam): string{
 
     const newQuery = queryParam.query.replace(baseUrl, BASE_URL)
     .replace(entity, queryParam.entity)
-    .replace(value, queryParam.value)
-    .replace(navigationProperty, queryParam.navigationProperty);
-  
+    .replace(PROPERTY, queryParam.value)
+    .replace(NAV_PROPERTY, queryParam.navigationProperty);
     return newQuery;
 
 }
 
 export const fetchData = async (url: string): Promise<ApiResponse[]> => {
-
     try {
         const response = await fetchDataFromUrlUsingAxios(url);
         return extractData(response);
-
     } catch (error) {
         console.log(`Could not fetch metadata for url: ${url} \n error: ${error}`);
         throw Error(error);
@@ -47,79 +43,40 @@ export const extractData = (response: string): ApiResponse[] => {
         return result;
 
 }
-export const extractDeferredEntityNames = (response: ApiResponse[]): string[] => {
+export const extractProperties = (response: ApiResponse[], entity: string): EntityProperies => {
 
-    const deferredEntities: string [] = [];
+    const properties: string [] = [];
+    const navigationProperties: string [] = [];
 
     response.map(res => {
         let firstObj = true;
         Object.entries(res).map(async ([key, value]) => {
             if(!firstObj){
                 if (lodash.isObject(value) ) {
-                    deferredEntities.push(key);
+                    navigationProperties.push(key);
+                }else{
+                    properties.push(key);
                 }
             }
             firstObj = false;
         })
     })
- 
-    return deferredEntities;
-}
-/* export const saveData = async (response: ApiResponse[], deferredFlag: boolean) : Promise<EntityResponse[]> => {
 
-    const entityResponses: EntityResponse[] = [];
-    
-    await Promise.all(response.map( async res => {
-        
-        const entityValues : EntityValue [] = [];
-        const deferredEntityNames: string[] = [];
-        const allDeferredEntityData: EntityData[] = [];
-        let firstObj = true;
-        await Promise.all(Object.entries(res).map(async ([key, value]) => {
-            if(!firstObj){
-                if (!lodash.isObject(value) ) {
-                    const entityValue: EntityValue = {};
-                    entityValue[key] = value;
-                    entityValues.push(entityValue);
-                }
-            }
-            firstObj = false;
-        }));
-        entityResponses.push({
-            entityValues: entityValues,
-            deferredEntityNames: deferredEntityNames,
-            deferredEntities: allDeferredEntityData
-        });
-    }));
-    return entityResponses;
-}
-export const fetchDeferredEntityData = async (entityName:string, value: Object) : Promise<EntityData> => {
-
-    //deferred entities
-    const deferredEntityContent = JSON.parse(JSON.stringify(value)) as DeferredEntities;
-    const url = deferredEntityContent['__deferred']['uri'];
-    const deferredEntityData: EntityData = {};
-    try {
-        
-        const response = await fetchData(url);
-        const result = await saveData(response, true);
-    
-        deferredEntityData[entityName] = result;
-        
-    } catch (error) {
-        console.log(error);
+    const entityProperties: EntityProperies = {
+        properties: properties,
+        navigationProperties: navigationProperties
     }
-                      
-    return deferredEntityData;             
+ 
+    return entityProperties;
 }
- */
-export const saveData1 = (response: ApiResponse[], deferredFlag: boolean) : EntityResponse[] => {
+
+export const saveData = (response: ApiResponse[], deferredFlag: boolean) : EntityResponse[] => {
 
     const entityResponses: EntityResponse[] = [];
     
     response.map(  res => {
         
-        const entityValues : EntityValue [] = [];
+        const entityValues : EntityPropertyData [] = [];
         const allDeferredEntityData: EntityData[] = [];
         let firstObj = true;
         Object.entries(res).map( ([key, value]) => {
@@ -128,7 +85,7 @@ export const saveData1 = (response: ApiResponse[], deferredFlag: boolean) : Enti
                     const deferredResult = saveDeferredEntityData(key, value);
                     allDeferredEntityData.push(deferredResult);
                 }else{
-                    const entityValue: EntityValue = {};
+                    const entityValue: EntityPropertyData = {};
                     entityValue[key] = value;
                     entityValues.push(entityValue);
                 }
@@ -136,8 +93,8 @@ export const saveData1 = (response: ApiResponse[], deferredFlag: boolean) : Enti
             firstObj = false;
         });
         entityResponses.push({
-            entityValues: entityValues,
-            deferredEntities: allDeferredEntityData
+            entityProperties: entityValues,
+            entityNavigationProperties: allDeferredEntityData
         });
     });
     return entityResponses;
@@ -154,11 +111,9 @@ export const saveDeferredEntityData =  (entityName:string, value: Object) : Enti
         return deferredEntityData;
     }
 
-    // const response = extractData(value.toString());
-
     const entityResponses: ApiResponse [] = [];
     entityResponses.push(value);
-    const result =  saveData1(entityResponses, true);
+    const result =  saveData(entityResponses, true);
     deferredEntityData[entityName] = result;
        
     return deferredEntityData;             

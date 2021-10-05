@@ -20,7 +20,6 @@ axiosRetry(axios, {
 
 export const readFileToCsn = async (filePath: string) => {
     const file = await fsPromise.readFile(filePath, 'utf8');
-    console.log(filePath);
     const csnFile= JSON.parse(await generateCSN(file, false, true));
     return csnFile;
 }
